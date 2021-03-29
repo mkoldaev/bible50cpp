@@ -3,16 +3,21 @@
 #include <string>
 #include "Bible1.h"
 #include <cstdlib>
+#include <sstream>
+
 using namespace std;
 
 void gen() {
     for(int i=1;i<=50;i++) {
-        string part1 = "../ru/1/bible_ru_1_";
-        string part2 = to_string(i);
-        string part3 = ".txt";
-        string book = part1+part2+part3;
-        cout << book+"\n";
-        ifstream file(book);
+        stringstream book, v1, v2;
+        //string part1 = "./ru/1/bible_ru_1_"; //for linux
+        string part1 = "../ru/1/bible_ru_1_"; //for clion
+        book << part1 << to_string(i) << ".txt";
+        string b = book.str();
+        cout << b + "\n";
+        v1 << "static void view" << to_string(i) + "() {\n";
+        v2 << "struct ru" << to_string(i) << " poems[] = {";
+        ifstream file(b);
         if (file.is_open()) {
             string line;
             while (getline(file, line)) {
