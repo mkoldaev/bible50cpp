@@ -5,14 +5,34 @@
 #include <cstdlib>
 using namespace std;
 
+void gen() {
+    for(int i=1;i<=50;i++) {
+        string part1 = "../ru/1/bible_ru_1_";
+        string part2 = to_string(i);
+        string part3 = ".txt";
+        string book = part1+part2+part3;
+        cout << book+"\n";
+        ifstream file(book);
+        if (file.is_open()) {
+            string line;
+            while (getline(file, line)) {
+                cout << line+"\n";
+            }
+            file.close();
+        }
+    }
+}
+
 int main(int argc, char** argv) {
+    gen();
+    exit(0);
     if (argc > 1) {
         int val = atoi(argv[1]);
         if(val==1) Bible1::view1();
         else if(val==2) Bible1::view2();
         else if(val==3) Bible1::view3();
-//        else if(val==4) Bible1::view4();
-//        else if(val==5) Bible1::view5();
+        else if(val==4) Bible1::view4();
+        else if(val==5) Bible1::view5();
 //        else if(val==6) Bible1::view6();
 //        else if(val==7) Bible1::view7();
 //        else if(val==8) Bible1::view8();
