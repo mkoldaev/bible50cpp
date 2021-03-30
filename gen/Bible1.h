@@ -87,7 +87,7 @@ struct ru1 poems[] = {
 	{30, "30 А всем зверям земным, и всем птицам небесным, и всякому пресмыкающемуся по земле, в котором душа живая, дал Я всю зелень травную в пищу. И стало так."},
 	{31, "31 И увидел Бог все, что Он создал, и вот, хорошо весьма. И был вечер, и было утро: день шестой."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view2() {
 struct ru2 poems[] = {
@@ -117,7 +117,7 @@ struct ru2 poems[] = {
 	{24, "24 Потому оставит человек отца своего и мать свою и прилепится к жене своей; и будут двое одна плоть."},
 	{25, "25 И были оба наги, Адам и жена его, и не стыдились."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view3() {
 struct ru3 poems[] = {
@@ -146,7 +146,7 @@ struct ru3 poems[] = {
 	{23, "23 И выслал его Господь Бог из сада Едемского, чтобы возделывать землю, из которой он взят."},
 	{24, "24 И изгнал Адама, и поставил на востоке у сада Едемского Херувима и пламенный меч обращающийся, чтобы охранять путь к дереву жизни."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view4() {
 struct ru4 poems[] = {
@@ -177,7 +177,7 @@ struct ru4 poems[] = {
 	{25, "25 И познал Адам еще жену свою, и она родила сына, и нарекла ему имя: Сиф, потому что, говорила она, Бог положил мне другое семя, вместо Авеля, которого убил Каин."},
 	{26, "26 У Сифа также родился сын, и он нарек ему имя: Енос; тогда начали призывать имя Господа."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view5() {
 struct ru5 poems[] = {
@@ -214,7 +214,7 @@ struct ru5 poems[] = {
 	{31, "31 Всех же дней Ламеха было семьсот семьдесят семь лет; и он умер."},
 	{32, "32 Ною было пятьсот лет и родил Ной Сима, Хама и Иафета."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view6() {
 struct ru6 poems[] = {
@@ -241,7 +241,7 @@ struct ru6 poems[] = {
 	{21, "21 Ты же возьми себе всякой пищи, какою питаются, и собери к себе; и будет она для тебя и для них пищею."},
 	{22, "22 И сделал Ной всё: как повелел ему Бог, так он и сделал."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view7() {
 struct ru7 poems[] = {
@@ -270,7 +270,7 @@ struct ru7 poems[] = {
 	{23, "23 Истребилось всякое существо, которое было на поверхности земли; от человека до скота, и гадов, и птиц небесных, - все истребилось с земли, остался только Ной и что было с ним в ковчеге."},
 	{24, "24 Вода же усиливалась на земле сто пятьдесят дней."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view8() {
 struct ru8 poems[] = {
@@ -297,7 +297,7 @@ struct ru8 poems[] = {
 	{21, "21 И обонял Господь приятное благоухание, и сказал Господь в сердце Своем: не буду больше проклинать землю за человека, потому что помышление сердца человеческого - зло от юности его; и не буду больше поражать всего живущего, как Я сделал:"},
 	{22, "22 впредь во все дни земли сеяние и жатва, холод и зной, лето и зима, день и ночь не прекратятся."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view9() {
 struct ru9 poems[] = {
@@ -331,7 +331,7 @@ struct ru9 poems[] = {
 	{28, "28 И жил Ной после потопа триста пятьдесят лет."},
 	{29, "29 Всех же дней Ноевых было девятьсот пятьдесят лет, и он умер."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view10() {
 struct ru10 poems[] = {
@@ -368,7 +368,7 @@ struct ru10 poems[] = {
 	{31, "31 Это сыновья Симовы по племенам их, по языкам их, в землях их, в народах их."},
 	{32, "32 Вот племена сынов Ноевых, по родословию их, в народах их. От них распространились народы на земле после потопа."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view11() {
 struct ru11 poems[] = {
@@ -405,7 +405,7 @@ struct ru11 poems[] = {
 	{31, "31 И взял Фарра Аврама, сына своего, и Лота, сына Аранова, внука своего, и Сару, невестку свою, жену Аврама, сына своего, и вышел с ними из Ура Халдейского, чтобы идти в землю Ханаанскую; но, дойдя до Харрана, они остановились там."},
 	{32, "32 И было дней жизни Фарры двести пять лет, и умер Фарра в Харране."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view12() {
 struct ru12 poems[] = {
@@ -430,7 +430,7 @@ struct ru12 poems[] = {
 	{19, "19 для чего ты сказал: она сестра моя? и я взял было ее себе в жену. И теперь вот жена твоя; возьми ее и пойди."},
 	{20, "20 И дал о нем фараон повеление людям, и проводили его, и жену его, и все, что у него было."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view13() {
 struct ru13 poems[] = {
@@ -453,7 +453,7 @@ struct ru13 poems[] = {
 	{17, "17 встань, пройди по земле сей в долготу и в широту ее, ибо Я тебе дам ее."},
 	{18, "18 И двинул Аврам шатер, и пошел, и поселился у дубравы Мамре, что в Хевроне; и создал там жертвенник Господу."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view14() {
 struct ru14 poems[] = {
@@ -482,7 +482,7 @@ struct ru14 poems[] = {
 	{23, "23 что даже нитки и ремня от обуви не возьму из всего твоего, чтобы ты не сказал: я обогатил Аврама;"},
 	{24, "24 кроме того, что съели отроки, и кроме доли, принадлежащей людям, которые ходили со мною; Анер, Эшкол и Мамрий пусть возьмут свою долю."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view15() {
 struct ru15 poems[] = {
@@ -508,7 +508,7 @@ struct ru15 poems[] = {
 	{20, "20 Хеттеев, Ферезеев, Рефаимов,"},
 	{21, "21 Аморреев, Хананеев, Гергесеев и Иевусеев."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view16() {
 struct ru16 poems[] = {
@@ -529,7 +529,7 @@ struct ru16 poems[] = {
 	{15, "15 Агарь родила Авраму сына; и нарек Аврам имя сыну своему, рожденному от Агари: Измаил."},
 	{16, "16 Аврам был восьмидесяти шести лет, когда Агарь родила Авраму Измаила."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view17() {
 struct ru17 poems[] = {
@@ -561,7 +561,7 @@ struct ru17 poems[] = {
 	{26, "26 В тот же самый день обрезаны были Авраам и Измаил, сын его,"},
 	{27, "27 и с ним обрезан был весь мужеский пол дома его, рожденные в доме и купленные за серебро у иноплеменников."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view18() {
 struct ru18 poems[] = {
@@ -599,7 +599,7 @@ struct ru18 poems[] = {
 	{32, "32 Авраам сказал: да не прогневается Владыка, что я скажу еще однажды: может быть, найдется там десять? Он сказал: не истреблю ради десяти."},
 	{33, "33 И пошел Господь, перестав говорить с Авраамом; Авраам же возвратился в свое место."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view19() {
 struct ru19 poems[] = {
@@ -642,7 +642,7 @@ struct ru19 poems[] = {
 	{37, "37 и родила старшая сына, и нарекла ему имя: Моав. Он отец Моавитян доныне."},
 	{38, "38 И младшая также родила сына, и нарекла ему имя: Бен-Амми. Он отец Аммонитян доныне."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view20() {
 struct ru20 poems[] = {
@@ -665,7 +665,7 @@ struct ru20 poems[] = {
 	{17, "17 И помолился Авраам Богу, и исцелил Бог Авимелеха, и жену его, и рабынь его, и они стали рождать;"},
 	{18, "18 ибо заключил Господь всякое чрево в доме Авимелеха за Сарру, жену Авраамову."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view21() {
 struct ru21 poems[] = {
@@ -704,7 +704,7 @@ struct ru21 poems[] = {
 	{33, "33 И насадил Авраам при Вирсавии рощу и призвал там имя Господа, Бога вечного."},
 	{34, "34 И жил Авраам в земле Филистимской, как странник, дни многие."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view22() {
 struct ru22 poems[] = {
@@ -733,7 +733,7 @@ struct ru22 poems[] = {
 	{23, "23 от Вафуила родилась Ревекка. Восьмерых сих родила Милка Нахору, брату Авраамову;"},
 	{24, "24 и наложница его, именем Реума, также родила Теваха, Гахама, Тахаша и Мааху."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view23() {
 struct ru23 poems[] = {
@@ -758,7 +758,7 @@ struct ru23 poems[] = {
 	{19, "19 После сего Авраам похоронил Сарру, жену свою, в пещере поля в Махпеле, против Мамре, что ныне Хеврон, в земле Ханаанской."},
 	{20, "20 Так достались Аврааму от сынов Хетовых поле и пещера, которая на нем, в собственность для погребения."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view24() {
 struct ru24 poems[] = {
@@ -830,7 +830,7 @@ struct ru24 poems[] = {
 	{66, "66 Раб же сказал Исааку все, что сделал."},
 	{67, "67 И ввел ее Исаак в шатер Сарры, матери своей, и взял Ревекку, и она сделалась ему женою, и он возлюбил ее; и утешился Исаак в печали по матери своей."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view25() {
 struct ru25 poems[] = {
@@ -869,7 +869,7 @@ struct ru25 poems[] = {
 	{33, "33 Иаков сказал: поклянись мне теперь же. Он поклялся ему, и продал первородство свое Иакову."},
 	{34, "34 И дал Иаков Исаву хлеба и кушанья из чечевицы; и он ел и пил, и встал и пошел; и пренебрег Исав первородство."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view26() {
 struct ru26 poems[] = {
@@ -909,7 +909,7 @@ struct ru26 poems[] = {
 	{34, "34 И был Исав сорока лет, и взял себе в жены Иегудифу, дочь Беэра Хеттеянина, и Васемафу, дочь Елона Хеттеянина;"},
 	{35, "35 и они были в тягость Исааку и Ревекке."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view27() {
 struct ru27 poems[] = {
@@ -960,7 +960,7 @@ struct ru27 poems[] = {
 	{45, "45 пока утолится гнев брата твоего на тебя, и он позабудет, что ты сделал ему: тогда я пошлю и возьму тебя оттуда; для чего мне в один день лишиться обоих вас?"},
 	{46, "46 И сказала Ревекка Исааку: я жизни не рада от дочерей Хеттейских; если Иаков возьмет жену из дочерей Хеттейских, каковы эти, из дочерей этой земли, то к чему мне и жизнь?"},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view28() {
 struct ru28 poems[] = {
@@ -987,7 +987,7 @@ struct ru28 poems[] = {
 	{21, "21 и я в мире возвращусь в дом отца моего, и будет Господь моим Богом, -"},
 	{22, "22 то этот камень, который я поставил памятником, будет домом Божиим; и из всего, что Ты, Боже, даруешь мне, я дам Тебе десятую часть."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view29() {
 struct ru29 poems[] = {
@@ -1027,7 +1027,7 @@ struct ru29 poems[] = {
 	{34, "34 И зачала еще и родила сына, и сказала: теперь-то прилепится ко мне муж мой, ибо я родила ему трех сынов. От сего наречено ему имя: Левий."},
 	{35, "35 И еще зачала и родила сына, и сказала: теперь-то я восхвалю Господа. Посему нарекла ему имя Иуда. И перестала рождать."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view30() {
 struct ru30 poems[] = {
@@ -1075,7 +1075,7 @@ struct ru30 poems[] = {
 	{42, "42 А когда зачинал скот слабый, тогда он не клал. И доставался слабый скот Лавану, а крепкий Иакову."},
 	{43, "43 И сделался этот человек весьма, весьма богатым, и было у него множество мелкого скота, и рабынь, и рабов, и верблюдов, и ослов."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view31() {
 struct ru31 poems[] = {
@@ -1135,7 +1135,7 @@ struct ru31 poems[] = {
 	{54, "54 И заколол Иаков жертву на горе и позвал родственников своих есть хлеб; и они ели хлеб и ночевали на горе."},
 	{55, "55 И встал Лаван рано утром и поцеловал внуков своих и дочерей своих, и благословил их. И пошел и возвратился Лаван в свое место."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view32() {
 struct ru32 poems[] = {
@@ -1172,7 +1172,7 @@ struct ru32 poems[] = {
 	{31, "31 И взошло солнце, когда он проходил Пенуэл; и хромал он на бедро свое."},
 	{32, "32 Поэтому и доныне сыны Израилевы не едят жилы, которая на составе бедра, потому что Боровшийся коснулся жилы на составе бедра Иакова."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view33() {
 struct ru33 poems[] = {
@@ -1197,7 +1197,7 @@ struct ru33 poems[] = {
 	{19, "19 И купил часть поля, на котором раскинул шатер свой, у сынов Еммора, отца Сихемова, за сто монет."},
 	{20, "20 И поставил там жертвенник, и призвал имя Господа Бога Израилева."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view34() {
 struct ru34 poems[] = {
@@ -1233,7 +1233,7 @@ struct ru34 poems[] = {
 	{30, "30 И сказал Иаков Симеону и Левию: вы возмутили меня, сделав меня ненавистным для жителей сей земли, для Хананеев и Ферезеев. У меня людей мало; соберутся против меня, поразят меня, и истреблен буду я и дом мой."},
 	{31, "31 Они же сказали: а разве можно поступать с сестрою нашею, как с блудницею!"},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view35() {
 struct ru35 poems[] = {
@@ -1267,7 +1267,7 @@ struct ru35 poems[] = {
 	{28, "28 И было дней жизни Исааковой сто восемьдесят лет."},
 	{29, "29 И испустил Исаак дух и умер, и приложился к народу своему, будучи стар и насыщен жизнью; и погребли его Исав и Иаков, сыновья его."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view36() {
 struct ru36 poems[] = {
@@ -1315,7 +1315,7 @@ struct ru36 poems[] = {
 	{42, "42 старейшина Кеназ, старейшина Феман, старейшина Мивцар,"},
 	{43, "43 старейшина Магдиил, старейшина Ирам. Вот старейшины Идумейские, по их селениям, в земле обладания их. Вот Исав, отец Идумеев."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view37() {
 struct ru37 poems[] = {
@@ -1356,7 +1356,7 @@ struct ru37 poems[] = {
 	{35, "35 И собрались все сыновья его и все дочери его, чтобы утешить его; но он не хотел утешиться и сказал: с печалью сойду к сыну моему в преисподнюю. Так оплакивал его отец его."},
 	{36, "36 Мадианитяне же продали его в Египте Потифару, царедворцу фараонову, начальнику телохранителей."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view38() {
 struct ru38 poems[] = {
@@ -1391,7 +1391,7 @@ struct ru38 poems[] = {
 	{29, "29 Но он возвратил руку свою; и вот, вышел брат его. И она сказала: как ты расторг себе преграду? И наречено ему имя: Фарес."},
 	{30, "30 Потом вышел брат его с красной нитью на руке. И наречено ему имя: Зара."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view39() {
 struct ru39 poems[] = {
@@ -1419,7 +1419,7 @@ struct ru39 poems[] = {
 	{22, "22 И отдал начальник темницы в руки Иосифу всех узников, находившихся в темнице, и во всем, что они там ни делали, он был распорядителем."},
 	{23, "23 Начальник темницы и не смотрел ни за чем, что было у него в руках, потому что Господь был с Иосифом, и во всем, что он делал, Господь давал успех."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view40() {
 struct ru40 poems[] = {
@@ -1447,7 +1447,7 @@ struct ru40 poems[] = {
 	{22, "22 а главного хлебодара повесил, как истолковал им Иосиф."},
 	{23, "23 И не вспомнил главный виночерпий об Иосифе, но забыл его."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view41() {
 struct ru41 poems[] = {
@@ -1509,7 +1509,7 @@ struct ru41 poems[] = {
 	{56, "56 И был голод по всей земле; и отворил Иосиф все житницы, и стал продавать хлеб Египтянам. Голод же усиливался в земле Египетской."},
 	{57, "57 И из всех стран приходили в Египет покупать хлеб у Иосифа, ибо голод усилился по всей земле."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view42() {
 struct ru42 poems[] = {
@@ -1552,7 +1552,7 @@ struct ru42 poems[] = {
 	{37, "37 И сказал Рувим отцу своему, говоря: убей двух моих сыновей, если я не приведу его к тебе; отдай его на мои руки; я возвращу его тебе."},
 	{38, "38 Он сказал: не пойдет сын мой с вами; потому что брат его умер, и он один остался; если случится с ним несчастье на пути, в который вы пойдете, то сведете вы седину мою с печалью во гроб."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view43() {
 struct ru43 poems[] = {
@@ -1591,7 +1591,7 @@ struct ru43 poems[] = {
 	{33, "33 И сели они пред ним, первородный по первородству его, и младший по молодости его, и дивились эти люди друг пред другом."},
 	{34, "34 И посылались им кушанья от него, и доля Вениамина была впятеро больше долей каждого из них. И пили, и довольно пили они с ним."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view44() {
 struct ru44 poems[] = {
@@ -1630,7 +1630,7 @@ struct ru44 poems[] = {
 	{33, "33 Итак пусть я, раб твой, вместо отрока останусь рабом у господина моего, а отрок пусть идет с братьями своими:"},
 	{34, "34 ибо как пойду я к отцу моему, когда отрока не будет со мною? я увидел бы бедствие, которое постигло бы отца моего."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view45() {
 struct ru45 poems[] = {
@@ -1663,7 +1663,7 @@ struct ru45 poems[] = {
 	{27, "27 Когда же они пересказали ему все слова Иосифа, которые он говорил им, и когда увидел колесницы, которые прислал Иосиф, чтобы везти его, тогда ожил дух Иакова, отца их,"},
 	{28, "28 и сказал Израиль: довольно, еще жив сын мой Иосиф; пойду и увижу его, пока не умру."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view46() {
 struct ru46 poems[] = {
@@ -1702,7 +1702,7 @@ struct ru46 poems[] = {
 	{33, "33 Если фараон призовет вас и скажет: какое занятие ваше?"},
 	{34, "34 то вы скажите: мы, рабы твои, скотоводами были от юности нашей доныне, и мы и отцы наши, чтобы вас поселили в земле Гесем. Ибо мерзость для Египтян всякий пастух овец."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view47() {
 struct ru47 poems[] = {
@@ -1738,7 +1738,7 @@ struct ru47 poems[] = {
 	{30, "30 дабы мне лечь с отцами моими; вынесешь меня из Египта и похоронишь меня в их гробнице. Иосиф сказал: сделаю по слову твоему."},
 	{31, "31 И сказал: клянись мне. И клялся ему. И поклонился Израиль на возглавие постели."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view48() {
 struct ru48 poems[] = {
@@ -1765,7 +1765,7 @@ struct ru48 poems[] = {
 	{21, "21 И сказал Израиль Иосифу: вот, я умираю; и Бог будет с вами и возвратит вас в землю отцов ваших;"},
 	{22, "22 я даю тебе, преимущественно пред братьями твоими, один участок, который я взял из рук Аморреев мечом моим и луком моим."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view49() {
 struct ru49 poems[] = {
@@ -1803,7 +1803,7 @@ struct ru49 poems[] = {
 	{32, "32 это поле и пещера, которая на нем, куплена у сынов Хеттеевых."},
 	{33, "33 И окончил Иаков завещание сыновьям своим, и положил ноги свои на постель, и скончался, и приложился к народу своему."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 static void view50() {
 struct ru50 poems[] = {
@@ -1834,6 +1834,6 @@ struct ru50 poems[] = {
 	{25, "25 И заклял Иосиф сынов Израилевых, говоря: Бог посетит вас, и вынесите кости мои отсюда."},
 	{26, "26 И умер Иосиф ста десяти лет. И набальзамировали его и положили в ковчег в Египте."},
 };
-size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%d. %s\n", poems[i].val, poems[i].msg);}
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
 }
 };
