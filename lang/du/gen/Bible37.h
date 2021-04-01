@@ -1,0 +1,56 @@
+#include <map>
+#include <string>
+class Bible37
+{
+	struct du1	{ int val; const char *msg; };
+	struct du2	{ int val; const char *msg; };
+public:
+static void view1() {
+struct du1 poems[] = {
+	{1, "1 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{2, "2 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{3, "3 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{4, "4 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{5, "5 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{6, "6 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{7, "7 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{8, "8 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{9, "9 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{10, "10 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{11, "11 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{12, "12 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{13, "13 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{14, "14 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{15, "15 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view2() {
+struct du2 poems[] = {
+	{1, "1 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{2, "2 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{3, "3 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{4, "4 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{5, "5 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{6, "6 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{7, "7 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{8, "8 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{9, "9 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{10, "10 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{11, "11 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{12, "12 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{13, "13 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{14, "14 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{15, "15 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{16, "16 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{17, "17 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{18, "18 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{19, "19 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{20, "20 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{21, "21 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{22, "22 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+	{23, "23 Dit is die stad, die opspringt van vreugde, die zeker woont, die in haar hart zegt: Ik ben het, en buiten mij is geen meer; hoe is zij geworden tot woestheid, een rustplaats van het gedierte! Een ieder, die daardoor trekt, zal ze aanfluiten, hij zal zijn hand bewegen."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+};

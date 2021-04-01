@@ -1,0 +1,187 @@
+#include <map>
+#include <string>
+class Bible25
+{
+	struct tr1	{ int val; const char *msg; };
+	struct tr2	{ int val; const char *msg; };
+	struct tr3	{ int val; const char *msg; };
+	struct tr4	{ int val; const char *msg; };
+	struct tr5	{ int val; const char *msg; };
+public:
+static void view1() {
+struct tr1 poems[] = {
+	{1, "1 O kent ki, insan doluydu,Nasıl da tek başına kaldı şimdi!Büyüktü uluslar arasında,Dul kadına döndü!Soyluydu iller arasında,Angarya altına düştü!"},
+	{2, "2 Geceleyin acı acı ağlıyor,Yanaklarında gözyaşı;Avutan tek kişi bile yokBunca oynaşı arasında.Dostları ona hainlik etti,Düşman oldu."},
+	{3, "3 Yahuda acı çekip ağır kölelik ettikten sonraSürgün edildi,Ulusların arasında oturuyor,Ama rahat bulamıyor.O sıkıntıdayken ardına düşenler ona yetişti."},
+	{4, "4 Siyona giden yollar yas tutuyor,Çünkü bayramlara gelen yok.Bütün kapıları ıssız, kâhinleri inliyor,Erden kızları sıkıntıda, kendisi de acı çekiyor."},
+	{5, "5 Hasımları başa geçti, düşmanları rahat içinde.Çok isyan ettiği için RAB ona acı çektiriyor,Yavruları hasımlarının gözü önünde sürgüne gitti."},
+	{6, "6 Siyon kızının bütün güzelliği uçtu,Önderleri otlak bulamayan geyiklere döndü,Dermanları kesildiKendilerini kovalayanların önünde."},
+	{7, "7 Yeruşalim sıkıntı içinde başıboş dolaşırkenEski günlerdeki varlığını anımsıyor.Halkı hasmının eline düşüp deYardımına koşan çıkmayınca,Hasımları haline bakıpYıkılışına güldüler."},
+	{8, "8 Yeruşalim büyük günah işledi,Bu yüzden kirlendi.Ona saygı duyanların hepsiŞimdi onu hor görüyor,Çünkü onu çıplak gördüler.O da inleyip öbür yana dönüyor."},
+	{9, "9 Kirliliği eteklerindeydi,Sonunu düşünmedi;Bu yüzden düşüşü korkunç oldu,Avutanı yok.‹‹Ya RAB, düşkün halimi gör,Çünkü düşmanım kazandı!››"},
+	{10, "10 Değerli her şeyine düşman el uzattı.Tapınağına başka ulusların girdiğini gördü,Topluluğuna girmesini yasakladığın uluslar."},
+	{11, "11 Halkı inleyip ekmek arıyor,Yeniden güçlerine kavuşmak içinDeğerli neleri varsa ekmekle değiştiler;‹‹Bak da gör, ya RAB, ne kadar sefil oldum.››"},
+	{12, "12 ‹‹Ey sizler, yoldan geçenler,Sizin için önemi yok mu bunun?Bakın da görün, başıma gelen dert gibisi var mı?Öyle bir dert ki, RAB öfkesinin alevlendiği günBaşıma yağdırdı onu. başınıza da gelmesin.››"},
+	{13, "13 Ateş saldı yukarıdan,Kemiklerimin içine işledi ateş;Ağ serdi ayaklarıma,Geri çevirdi beni;Mahvetti, baygın kaldım bütün gün."},
+	{14, "14 İsyanlarım boyunduruğa döndü,RABbin eliyle birbirine tutturulupBoynuma geçirildi, gücüm tükendi.Rab karşı duramadığımİnsanların eline verdi beni."},
+	{15, "15 Hiçe saydı beni savunan yiğitleri,Gençlerimi kırıp geçirmek için çağrı yaptı ordulara,Rab erden Yahuda kızınıÜzüm sıkma çukurunda çiğnedi adeta."},
+	{16, "16 ‹‹Ağlıyorum bunlara,Gözlerimden yaşlar boşanıyor;Çünkü beni avutan,Canımı tazeleyen benden uzak.Çocuklarım şaşkına döndü,Çünkü düşmanım üstün çıktı.››"},
+	{17, "17 Siyon ellerini açmış,Ama onu avutan yok.RAB Yakup soyuna karşı buyruk verdi,Komşuları ona hasım olsun, dedi.Yeruşalim aralarında paçavraya döndü."},
+	{18, "18 ‹‹RAB haklıdır, çünkü buyruğuna karşı geldim.Şimdi dinleyin, ey halklar, çektiğim acıyı görün;Erden kızlarım, gençlerim sürgüne gitti."},
+	{19, "19 Oynaşlarımı çağırdım,Ama aldattılar beni.Yeniden güçlerine kavuşmak için yiyecek ararkenKâhinlerimle önderlerim kentte can verdi."},
+	{20, "20 Gör, ya RAB, ne sıkıntılar çektiğimi,İçim kanıyor, yüreğim buruk,Çünkü çok asilik ettim;Dışarıda kılıç beni çocuklarımdan ayırmakta,İçerdeyse ölüm kol gezmekte."},
+	{21, "21 İnlediğimi duydular,Beni avutan olmadı.Bütün düşmanlarım başıma gelen felaketi duydu,Sen yaptın diye sevinçten coştular.İlan ettiğin günü getir,Onlar da benim gibi olsunlar."},
+	{22, "22 Yaptıkları her kötülüğü anımsa,İsyanlarımdan ötürü bana ne yaptınsa onlara da yap;Çünkü sürekli inliyor, baygınlık geçiriyorum.››"},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view2() {
+struct tr2 poems[] = {
+	{1, "1 Rab öfkelenince Siyon kızını nasıl bulutla kapladı!İsrailin görkemini gökten yere fırlattı,Öfkelendiği gün ayağının taburesini anımsamadı."},
+	{2, "2 Yakup soyunun yaşadığı her yeri acımadan yuttu,Yahuda kızının surlu kentlerini gazabıyla yıktı,Yerle bir etti onları,Krallığını ve önderlerini alçalttı."},
+	{3, "3 Kızgın öfkesiyle İsrailin gücünü kökünden kesti,Düşmanın önünde sağ elini onların üstünden çekti,Çevresini yiyip bitiren alevli ateş gibi Yakup soyunu yaktı."},
+	{4, "4 Düşman gibi yayını gerdi,Hasım gibi sağ elini kaldırdı,Göz zevkini okşayan herkesi öldürdü,Gazabını Siyon kızının çadırı üstüne ateş gibi döktü."},
+	{5, "5 Rab adeta bir düşman olup İsraili yuttu,Bütün saraylarını yutup surlu kentlerini yıktı,Yahuda kızının feryadını, figanını arşa çıkardı."},
+	{6, "6 Bahçe çardağını söker gibi kendi çardağını söküp attı,Buluşma yerini yok etti,RAB Siyonda bayram ve Şabat günlerini unutturdu,Şiddetli öfkesi yüzünden kralı da kâhini de reddetti."},
+	{7, "7 Rab sunağını attı,Tapınağını terk etti;Siyon saraylarını çeviren surları düşman eline bıraktı.Bayram gününde olduğu gibi,Düşman RABbin Tapınağında sevinç çığlıkları attı."},
+	{8, "9 Siyonun kapıları yere battı,RAB kapı sürgülerini kırıp yok etti,Kralıyla önderleri başka ulusların arasında kaldı,Kutsal Yasa uygulanmaz oldu,Peygamberlerine RABden görüm gelmiyor artık."},
+	{9, "10 Siyon kızının ileri gelenleri suskun, yere oturmuş,Başlarına toprak saçıp çul kuşanmışlar,Yeruşalimin erden kızları yere eğmiş başlarını."},
+	{10, "11 Gözlerim tükenmekte ağlamaktan,İçim kanıyor;Halkımın yıkımındanYüreğim sızlıyor,Çünkü kent meydanlarında çocuklarla bebekler bayılmakta."},
+	{11, "12 Kent meydanlarında yaralılar gibi bayılıpCan çekişirken annelerinin bağrında,‹‹Ekmekle şarap nerede?›› diye soruyorlar annelerine."},
+	{12, "13 Senin için ne diyeyim?Ey Yeruşalim kızı, seni neye benzeteyim?Ey Siyonun erden kızı, sana neyi örnek göstereyim deSeni avutayım?Sendeki gedik deniz kadar büyük,Kim sana şifa verebilir?"},
+	{13, "14 Peygamberlerin senin için boş ve anlamsız görümler gördüler.Suçunu ortaya çıkarsalardı, eski gönencine kavuşabilirdin;Oysa seni ayartacak boş görümler gördüler."},
+	{14, "15 Yoldan geçen herkes el çırparak seninle alay ediyor,Yeruşalim kızına baş sallayıp ıslık çalarak,‹‹Bütün dünyanın sevinci, güzellik simgesi dedikleri kent bu mu?›› diyorlar."},
+	{15, "16 Düşmanlarının hepsi seninle alay etti,Islık çalıp diş gıcırdatarak,‹‹Onu yuttuk›› diyorlar,‹‹İşte beklediğimiz gün, sonunda gördük onu.››"},
+	{16, "17 RAB düşündüğünü yaptı,Geçmişte söylediği sözü yerine getirdi,Yıktı, acımadı,Düşmanı senin haline sevindirdi,Hasımlarını güçlü kıldı. boynuzunu yükseltti››."},
+	{17, "18 Halk Rabbe yürekten feryat ediyor.Ey Siyon kızının surları,Gece gündüz gözyaşın sel gibi aksın!Dinlenme, gözüne uyku girmesin!"},
+	{18, "19 Kalk, gece her nöbet başında haykır,Rabbin huzurunda yüreğini su gibi dök!Her sokak başında açlıktan bayılan çocuklarının başı için Ona ellerini aç."},
+	{19, "20 ‹‹Bak, ya RAB, gör! Kime böyle yaptın?Kadınlar çocuklarını, sevgili yavrularını mı yesin?Kâhinle peygamber Rabbin Tapınağında mı öldürülsün?"},
+	{20, "21 Gençler, yaşlılar sokaklarda, yerlerde yatıyor,Kılıçtan geçirildi erden kızlarımla gençlerim,Öfkelendiğin gün öldürdün onları, acımadan boğazladın."},
+	{21, "22 Bir bayram günü davet eder gibiBeni dehşete düşürenleri davet ettin her yandan.RAB'bin öfkelendiği gün kaçıp kurtulan,Sağ kalan olmadı.Sevgiyle büyüttüğüm çocuklarımıDüşmanım yok etti.››"},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view3() {
+struct tr3 poems[] = {
+	{1, "2 Beni güttü,Işıkta değil karanlıkta yürüttü."},
+	{2, "3 Evet, dönüp dönüp bütün gün bana elini kaldırıyor."},
+	{3, "4 Etimi, derimi yıprattı, kemiklerimi kırdı."},
+	{4, "5 Beni kuşattı,Acı ve zahmetle sardı çevremi."},
+	{5, "6 Çoktan ölmüş ölüler gibiBeni karanlıkta yaşattı."},
+	{6, "7 Çevreme duvar çekti, dışarı çıkamıyorum,Zincirimi ağırlaştırdı."},
+	{7, "8 Feryat edip yardım isteyince deDuama set çekiyor."},
+	{8, "9 Yontma taşlarla yollarımı kesti,Dolaştırdı yollarımı."},
+	{9, "10 Benim için O pusuya yatmış bir ayı,Gizlenmiş bir aslandır."},
+	{10, "11 Yollarımı saptırdı, paraladı,Mahvetti beni."},
+	{11, "12 Yayını gerdi, okunu savurmak içinBeni nişangah olarak dikti."},
+	{12, "13 Oklarını böbreklerime sapladı."},
+	{13, "14 Halkımın önünde gülünç düştüm,Gün boyu alay konusu oldum türkülerine."},
+	{14, "15 Beni acıya doyurdu,Bana doyasıya pelinsuyu içirdi."},
+	{15, "16 Dişlerimi çakıl taşlarıyla kırdı,Kül içinde diz çöktürdü bana."},
+	{16, "17 Esenlik yüzü görmedi canım,Mutluluğu unuttum."},
+	{17, "18 Bu yüzden diyorum ki,‹‹Dermanım tükendi,RABden umudum kesildi.››"},
+	{18, "19 Acımı, başıboşluğumu,Pelinotuyla ödü anımsa!"},
+	{19, "20 Hâlâ onları düşünmekteVe sıkılmaktayım."},
+	{20, "21 Ama şunu anımsadıkça umutlanıyorum:"},
+	{21, "22 RABbin sevgisi hiç tükenmez,Merhameti asla son bulmaz; sayesinde yok olmadık.››"},
+	{22, "23 Her sabah tazelenir onlar,Sadakatin büyüktür."},
+	{23, "24 ‹‹Benim payıma düşen RABdir›› diyor canım,‹‹Bu yüzden Ona umut bağlıyorum.››"},
+	{24, "25 RAB kendisini bekleyenler,Onu arayan canlar için iyidir."},
+	{25, "26 RABbin kurtarışını sessizce beklemek iyidir."},
+	{26, "27 İnsan için boyunduruğu gençken taşımak iyidir."},
+	{27, "28 RAB insana boyunduruk takınca,İnsan tek başına oturup susmalı;"},
+	{28, "29 Umudunu kesmeden yere kapanmalı,"},
+	{29, "30 Kendisine vurana yanağını dönüpUtanca doymalı;"},
+	{30, "31 Çünkü Rab kimseyi sonsuza dek geri çevirmez."},
+	{31, "32 Dert verse de,Büyük sevgisinden ötürü yine merhamet eder;"},
+	{32, "33 Çünkü isteyerek acı çektirmez,İnsanları üzmez."},
+	{33, "34 Ülkedeki bütün tutsakları ayak altında ezmeyi,"},
+	{34, "35 Yüceler Yücesinin huzurunda insan hakkını saptırmayı,"},
+	{35, "36 Davasında insana haksızlık etmeyiRab doğru görmez."},
+	{36, "37 Rab buyurmadıkça kim bir şey söyler de yerine gelir?"},
+	{37, "38 İyilikler gibi felaketler de Yüceler Yücesinin ağzından çıkmıyor mu?"},
+	{38, "39 İnsan, yaşayan insanNiçin günahlarının cezasından yakınır?"},
+	{39, "40 Davranışlarımızı sınayıp gözden geçirelim,Yine RABbe dönelim."},
+	{40, "41 Ellerimizin yanısıra yüreklerimizi de göklerdeki Tanrıya açalım:"},
+	{41, "42 ‹‹Biz karşı çıkıp başkaldırdık,Sen bağışlamadın."},
+	{42, "43 Öfkeyle örtünüp bizi kovaladın,Acımadan öldürdün."},
+	{43, "44 Dualar sana erişmesin diyeBulutları örtündün."},
+	{44, "45 Uluslar arasında bizi pisliğe, süprüntüye çevirdin."},
+	{45, "46 Düşmanlarımızın hepsi bizimle alay etti."},
+	{46, "47 Dehşet ve çukur, kırgın ve yıkım çıktı önümüze.››"},
+	{47, "48 Kırılan halkım yüzündenGözlerimden sel gibi yaşlar akıyor."},
+	{48, "49 Durup dinmeden yaş boşanıyor gözümden,"},
+	{49, "50 RAB göklerden bakıp görünceye dek."},
+	{50, "51 Kentimdeki kızların halini gördükçeYüreğim sızlıyor."},
+	{51, "52 Boş yere bana düşman olanlar bir kuş gibi avladılar beni."},
+	{52, "53 Beni sarnıca atıp öldürmek istediler,Üzerime taş attılar."},
+	{53, "54 Sular başımdan aştı, ‹‹Tükendim›› dedim."},
+	{54, "55 Sarnıcın dibinden seni adınla çağırdım, ya RAB;"},
+	{55, "56 Sesimi, ‹‹Ahıma, çağrıma kulağını kapama!›› dediğimi duydun."},
+	{56, "57 Seni çağırınca yaklaşıp, ‹‹Korkma!›› dedin."},
+	{57, "58 Davamı sen savundun, ya Rab,Canımı kurtardın."},
+	{58, "59 Bana yapılan haksızlığı gördün, ya RAB,Davamı sen gör."},
+	{59, "60 Benden nasıl öç aldıklarını,Bana nasıl dolap çevirdiklerini gördün."},
+	{60, "61-62 Aşağılamalarını, ya RAB,Çevirdikleri bütün dolapları,Bana saldıranların dediklerini,Gün boyu söylendiklerini duydun."},
+	{61, "63 Oturup kalkışlarına bak,Alay konusu oldum türkülerine."},
+	{62, "64 Yaptıklarının karşılığını ver, ya RAB."},
+	{63, "65 İnat etmelerini sağla,Lanetin üzerlerinden eksilmesin."},
+	{64, "66 Göklerinin altından öfkeyle kovala, yok et onları, ya RAB."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view4() {
+struct tr4 poems[] = {
+	{1, "1 Altın nasıl donuklaştı,Saf altın nasıl değişti!Kutsal taşlar sokak başlarına dağılmış."},
+	{2, "2 Değerleri saf altınla ölçülen Siyon çocuklarıNasıl çömlekçi işi, toprak testi yerine sayılır oldu!"},
+	{3, "3 Çakallar bile meme verip yavrularını emzirir,Ama halkım çöldeki devekuşları kadar acımasız oldu."},
+	{4, "4 Susuzluktan emzikteki bebeklerin dili damağına yapışıyor,Çocuklar ekmek istiyor, veren yok."},
+	{5, "5 Onlar ki, yemeğin en iyisini yerlerdi,Sokaklarda perişan oldular;Onlar ki, al giysiler içinde büyüdüler,Çöp yığınlarını kapışır oldular."},
+	{6, "6 Halkımın suçu el değmeden, bir anda yıkılanSodomun günahından daha büyüktür."},
+	{7, "7 Beyleri kardan temiz, sütten aktılar,Bedence mercandan kızıl, laciverttaşı kadar biçimliydiler."},
+	{8, "8 Şimdiyse görünüşleri kömürden kara,Sokaklarda tanınmaz oldular.Bir deri bir kemiğe döndüler, odun gibi kurudular."},
+	{9, "9 Kılıçla öldürülenler kıtlıktan ölenlerden mutludur,Çünkü kıtlıktan ölenler tarla ürününün yokluğundan yıpranarak erimekteler."},
+	{10, "10 Merhametli kadınlar çocuklarını elleriyle pişirdiler,Halkım kırılırken yiyecek oldu bu kendilerine."},
+	{11, "11 RAB öfkesini boşalttı, kızgın öfkesini döktü,Temellerini yiyip bitiren ateşi Siyonun içinde tutuşturdu."},
+	{12, "12 Dünyadaki kralların ve insanların hiçbiriYeruşalim kapılarından hasımların, düşmanların gireceğine inanmazdı."},
+	{13, "13 Peygamberlerinin günahı, kâhinlerinin suçu yüzündendi bu,Çünkü onlar kentin ortasında doğruların kanını döktüler."},
+	{14, "14 Sokaklarda körler gibi dolaşıyorlar,Kanla kirlendikleri için kimse giysilerine dokunamıyor."},
+	{15, "15 ‹‹Çekilin! Kirliler!›› diye bağırdılar onlara,‹‹Çekilin! Çekilin! Dokunmayın!››Kaçıp başıboş dolaştıklarında,Öteki uluslar, ‹‹Artık burada kalmasınlar›› dediler."},
+	{16, "16 RAB kendisi dağıttı onları,Artık yüzlerine bakmayacak.Kâhinleri saymadılar, yaşlılara acımadılar."},
+	{17, "17 Boş yere yardım beklemekten gözlerimizin feri sönüyor,Gözetleme kulesinde bizi kurtaramayacak bir ulusu bekledikçe bekledik."},
+	{18, "18 İzlerimizi sürüyorlar,Sokaklarımızda gezemez olduk.Sonumuz yaklaştı, günlerimiz tükendi,Çünkü sonumuz geldi."},
+	{19, "19 Bizi kovalayanlar gökteki kartallardan çevikti,Dağların üstünde kovaladılar bizi,Çölde bize pusu kurdular."},
+	{20, "20 Yaşam soluğumuz,RABbin meshettiği kral onların çukurunda yakalandı;Hani onun için, ‹‹Ulusların arasında onun gölgesinde yaşayacağız›› dediğimiz."},
+	{21, "21 Ûs ülkesinde yaşayan Edom kızı, sevin, coş,Ancak kâse sana da gelecek, sarhoş olup soyunacaksın."},
+	{22, "22 Ey Siyon kızı, suçunun cezası sona erdi,RAB bir daha seni sürgüne göndermeyecek.Ama, ey Edom kızı, suçun yüzünden seni cezalandırıp günahlarını ortaya çıkaracak."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view5() {
+struct tr5 poems[] = {
+	{1, "1 Anımsa, ya RAB, başımıza geleni,Bak da utancımızı gör."},
+	{2, "2 Mülkümüz yabancılara geçti,Evlerimiz ellere."},
+	{3, "3 Öksüz kaldık, babasız,Annelerimiz dul kadınlara döndü."},
+	{4, "4 Suyumuzu parayla içtik,Odunumuzu parayla almak zorunda kaldık."},
+	{5, "5 Bizi kovalayanlar ensemizde,Yorgun düştük, rahatımız yok."},
+	{6, "6 Ekmek içinMısıra, Asura el açtık."},
+	{7, "7 Atalarımız günah işledi,Ama artık onlar yok;Suçlarının cezasını biz yüklendik."},
+	{8, "8 Köleler üstümüzde saltanat sürüyor,Bizi ellerinden kurtaracak kimse yok."},
+	{9, "9 Çöldeki kılıçlı haydutlar yüzündenEkmeğimizi canımız pahasına kazanıyoruz."},
+	{10, "10 Kıtlığın yakıcı sıcağındanDerimiz fırın gibi kızardı."},
+	{11, "11 Siyonda kadınların,Yahuda kentlerinde erden kızların ırzına geçtiler."},
+	{12, "12 Önderler ellerinden asıldı,Yaşlılar saygı görmedi."},
+	{13, "13 Değirmen taşını gençler çevirdi,Çocuklar odun yükü altında tökezledi."},
+	{14, "14 Yaşlılar kent kapısında oturmaz oldu,Gençler saz çalmaz oldu."},
+	{15, "15 Yüreğimizin sevinci durdu,Oyunumuz yasa döndü."},
+	{16, "16 Taç düştü başımızdan,Vay başımıza!Çünkü günah işledik."},
+	{17, "17 Bu yüzden yüreğimiz baygın,Bunlardan ötürü gözlerimiz karardı."},
+	{18, "18 Viran olan Siyon Dağının üstündeÇakallar geziyor!"},
+	{19, "19 Ama sen, sonsuza dek tahtında oturursun, ya RAB,Egemenliğin kuşaklar boyu sürer."},
+	{20, "20 Niçin bizi hep unutuyorsun,Neden bizi uzun süre terk ediyorsun?"},
+	{21, "21 Bizi kendine döndür, ya RAB, döneriz,Eski günlerimizi geri ver."},
+	{22, "22 Bizi büsbütün attıysan,Bize çok öfkelenmiş olmalısın."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+};

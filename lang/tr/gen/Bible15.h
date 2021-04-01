@@ -1,0 +1,335 @@
+#include <map>
+#include <string>
+class Bible15
+{
+	struct tr1	{ int val; const char *msg; };
+	struct tr2	{ int val; const char *msg; };
+	struct tr3	{ int val; const char *msg; };
+	struct tr4	{ int val; const char *msg; };
+	struct tr5	{ int val; const char *msg; };
+	struct tr6	{ int val; const char *msg; };
+	struct tr7	{ int val; const char *msg; };
+	struct tr8	{ int val; const char *msg; };
+	struct tr9	{ int val; const char *msg; };
+	struct tr10	{ int val; const char *msg; };
+public:
+static void view1() {
+struct tr1 poems[] = {
+	{1, "1 Pers Kralı Koreşin krallığının birinci yılında RAB, Yeremya aracılığıyla bildirdiği sözünü yerine getirmek amacıyla, Pers Kralı Koreşi harekete geçirdi. Koreş yönetimi altındaki bütün halklara şu yazılı bildiriyi duyurdu:"},
+	{2, "2 ‹‹Pers Kralı Koreş şöyle diyor: ‹Göklerin Tanrısı RAB yeryüzünün bütün krallıklarını bana verdi. Beni Yahudadaki Yeruşalim Kentinde kendisi için bir tapınak yapmakla görevlendirdi."},
+	{3, "3 Aranızda Onun halkından kim varsa Tanrısı onunla olsun. Yahudadaki Yeruşalim Kentine gidip İsrailin Tanrısı RABbin, Yeruşalimdeki Tanrının Tapınağını yeniden yapsınlar."},
+	{4, "4 Krallığımda yaşayan yerliler, sürgün oldukları yerlerde sağ kalmış olanlara altın, gümüş, mal ve hayvanlar sağlamakla birlikte Yeruşalimdeki Tanrının Tapınağına gönülden sunular sunsun.››"},
+	{5, "5 Böylece Yahuda ve Benyamin oymaklarının boy başları, kâhinler, Levililer ve ruhları Tanrı tarafından harekete geçirilen herkes, RABbin Yeruşalimdeki Tapınağını yeniden yapmak için gidiş hazırlıklarına girişti."},
+	{6, "6 Komşuları gönülden verdikleri armağanların yanısıra, altın, gümüş kaplar, mal, hayvan ve değerli armağanlarla onları desteklediler."},
+	{7, "7-8 Pers Kralı Koreş de Nebukadnessarın Yeruşalimdeki RABbin Tapınağından alıp kendi ilahının tapınağına koymuş olduğu kapları çıkardı. Bunları hazine görevlisi Mitredata getirterek sayımını yaptırdı ve Yahuda önderi Şeşbassara verdi."},
+	{8, "9 Sayım sonucu şuydu:"},
+	{9, "30 altın tas"},
+	{10, "11 Altın ve gümüş eşyaların toplamı 5 400 parçaydı. Sürgünler Babil'den Yeruşalim'e dönerken Şeşbassar bunların hepsini birlikte getirdi."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view2() {
+struct tr2 poems[] = {
+	{1, "1 Babil Kralı Nebukadnessarın Babile sürgün ettiği insanlar yaşadıkları ilden Yeruşalim ve Yahudadaki kendi kentlerine döndü."},
+	{2, "2 Bunlar Zerubbabil, Yeşu, Nehemya, Seraya, Reelaya, Mordekay, Bilşan, Mispar, Bigvay, Rehum ve Baananın önderliğinde geldiler. Sürgünden dönen İsraillilerin sayıları şöyleydi:"},
+	{3, "3 Paroşoğulları: 2172"},
+	{4, "4 Şefatyaoğulları: 372"},
+	{5, "5 Arahoğulları: 775"},
+	{6, "6 Yeşu ve Yoav soyundan Pahat-Moavoğulları: 2812"},
+	{7, "7 Elamoğulları: 1254"},
+	{8, "8 Zattuoğulları: 945"},
+	{9, "9 Zakkayoğulları: 760"},
+	{10, "10 Banioğulları: 642"},
+	{11, "11 Bevayoğulları: 623"},
+	{12, "12 Azgatoğulları: 1222"},
+	{13, "13 Adonikamoğulları: 666"},
+	{14, "14 Bigvayoğulları: 2056"},
+	{15, "15 Adinoğulları: 454"},
+	{16, "16 Hizkiya soyundan Ateroğulları: 98"},
+	{17, "17 Besayoğulları: 323"},
+	{18, "18 Yoraoğulları: 112"},
+	{19, "19 Haşumoğulları: 223"},
+	{20, "20 Gibbaroğulları: 95"},
+	{21, "21 Beytlehemliler: 123"},
+	{22, "22 Netofalılar: 56"},
+	{23, "23 Anatotlular: 128"},
+	{24, "24 Azmavetliler: 42"},
+	{25, "25 Kiryat-Yearimliler, Kefiralılar ve Beerotlular: 743"},
+	{26, "26 Ramalılar ve Gevalılar: 621"},
+	{27, "27 Mikmaslılar: 122"},
+	{28, "28 Beytel ve Ay kentlerinden olanlar: 223"},
+	{29, "29 Nevolular: 52"},
+	{30, "30 Magbişliler: 156"},
+	{31, "31 Öbür Elam Kentinden olanlar: 1254"},
+	{32, "32 Harimliler: 320"},
+	{33, "33 Lod, Hadit ve Ono kentlerinden olanlar: 725"},
+	{34, "34 Erihalılar: 345"},
+	{35, "35 Senaalılar: 3630."},
+	{36, "36 Kâhinler:  Yeşu soyundan Yedayaoğulları: 973"},
+	{37, "37 İmmeroğulları: 1052"},
+	{38, "38 Paşhuroğulları: 1247"},
+	{39, "39 Harimoğulları: 1017."},
+	{40, "40 Levililer:  Hodavya soyundan Yeşu ve Kadmieloğulları: 74."},
+	{41, "41 Ezgiciler:  Asafoğulları: 128."},
+	{42, "42 Tapınak kapı nöbetçileri:  Şallumoğulları, Ateroğulları,  Talmonoğulları, Akkuvoğulları,  Hatitaoğulları, Şovayoğulları, toplam 139."},
+	{43, "43 Tapınak görevlileri:  Sihaoğulları, Hasufaoğulları, Tabbaotoğulları,"},
+	{44, "44 Kerosoğulları, Siahaoğulları, Padonoğulları,"},
+	{45, "45 Levanaoğulları, Hagavaoğulları, Akkuvoğulları,"},
+	{46, "46 Hagavoğulları, Şalmayoğulları, Hananoğulları,"},
+	{47, "47 Giddeloğulları, Gaharoğulları, Reayaoğulları,"},
+	{48, "48 Resinoğulları, Nekodaoğulları, Gazzamoğulları,"},
+	{49, "49 Uzzaoğulları, Paseahoğulları, Besayoğulları,"},
+	{50, "50 Asnaoğulları, Meunimoğulları, Nefusimoğulları,"},
+	{51, "51 Bakbukoğulları, Hakufaoğulları, Harhuroğulları,"},
+	{52, "52 Baslutoğulları, Mehidaoğulları, Harşaoğulları,"},
+	{53, "53 Barkosoğulları, Siseraoğulları, Temahoğulları,"},
+	{54, "54 Nesiahoğulları, Hatifaoğulları."},
+	{55, "55 Süleymanın kullarının soyu:  Sotayoğulları, Hassoferetoğulları, Perudaoğulları,"},
+	{56, "56 Yalaoğulları, Darkonoğulları, Giddeloğulları,"},
+	{57, "57 Şefatyaoğulları, Hattiloğulları,  Pokeret-Hassevayimoğulları, Amioğulları."},
+	{58, "58 Tapınak görevlileriyle Süleymanın kullarının soyundan olanlar: 392."},
+	{59, "59 Tel-Melah, Tel-Harşa, Keruv, Addan ve İmmerden dönen, ancak hangi aileden olduklarını ve soylarının İsrailden geldiğini kanıtlayamayanlar şunlardır:"},
+	{60, "60 Delayaoğulları, Toviyaoğulları, Nekodaoğulları: 652."},
+	{61, "61 Kâhinlerin soyundan: Hovayaoğulları, Hakkosoğulları ve Gilatlı Barzillayın kızlarından biriyle evlenip kayınbabasının adını alan Barzillayın oğulları."},
+	{62, "62 Bunlar soy kütüklerini aradılar. Ama yazılı bir kayıt bulamayınca, kâhinlik görevi ellerinden alındı."},
+	{63, "63 Vali, Urim ile Tummimi kullanan bir kâhin çıkıncaya dek en kutsal yiyeceklerden yememelerini buyurdu."},
+	{64, "64 Bütün halk toplam 42 360 kişiydi."},
+	{65, "65-67 Ayrıca 7 337 erkek ve kadın köle,  kadınlı erkekli 200 ezgici,  736 at,  245 katır,  435 deve,  6 720 eşek vardı."},
+	{66, "68 Bazı aile başları Yeruşalimdeki RAB Tanrının Tapınağına varınca, tapınağın bulunduğu yerde yeniden kurulması için gönülden armağanlar verdiler."},
+	{67, "69 Her biri gücü oranında hazineye bu iş için toplam 61 000 darik altın, 5 000 mina gümüş, 100 kâhin mintanı bağışladı."},
+	{68, "70 Kâhinler, Levililer, halktan bazı kişiler -ezgiciler, tapınak görevlileri ve kapı nöbetçileri- kendi kentlerine yerleştiler. Böylece bütün İsrailliler kentlerinde yaşamaya başladılar."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view3() {
+struct tr3 poems[] = {
+	{1, "1 İsrailliler kendi kentlerine yerleştikten sonra, yedinci ay Yeruşalimde tek vücut halinde toplandılar."},
+	{2, "2 Yosadak oğlu Yeşu ve kâhin olan kardeşleri, Şealtiel oğlu Zerubbabille kardeşleri İsrailin Tanrısının sunağını yeniden kurdular. Amaçları, Tanrı adamı Musanın yasası uyarınca, sunağın üzerinde yakmalık sunular sunmaktı."},
+	{3, "3 Çevrelerinde yaşayan halklardan korkmalarına karşın, sunağı eski temeli üzerine yeniden kurdular. Üzerinde RABbe sabah, akşam öngörülen yakmalık sunuları sundular."},
+	{4, "4 Sonra yazılanlara uygun biçimde Çardak Bayramını kutladılar. Kural uyarınca, her gün için belirlenen sayıya göre, yakmalık sunuları sundular."},
+	{5, "5 Bundan sonra da günlük yakmalık sunuyu, Yeni Ay sunularını, RABbin belirlediği bütün kutsal bayramların sunularını ve RABbe gönülden verilen sunuları sundular."},
+	{6, "7 İsrailliler taşçılarla marangozlara para ödediler. Ayrıca sedir tomruklarını Lübnandan denize indirerek Yafaya getirmeleri için Saydalılara ve Surlulara yiyecek, içecek, zeytinyağı sağladılar. Bütün bunlara Pers Kralı Koreş izin vermişti."},
+	{7, "8 Tanrının Yeruşalimdeki Tapınağına vardıktan sonra, ikinci yılın ikinci ayında Şealtiel oğlu Zerubbabil, Yosadak oğlu Yeşu ve bütün öteki kardeşleri, kâhinler, Levililer ve sürgünden Yeruşalime dönenlerin tümü işe başladılar. RABbin Tapınağının yapımını denetlemek için yirmi ve daha yukarı yaştaki Levilileri görevlendirdiler."},
+	{8, "9 Levililerden Yeşu, oğulları ve kardeşleri, Yahuda soyundan Kadmiel ile oğulları, Henadatın oğullarıyla torunları Tanrının Tapınağının yapımında çalışanları denetleme işini hep birlikte yüklendiler."},
+	{9, "10 Yapıcılar RABbin Tapınağının temelini atınca, İsrail Kralı Davutun kuralı uyarınca kâhinler RABbi övmek için tören giysilerini giymiş olarak ellerinde borazanlarla, Levili Asafoğulları da zillerle yerlerini aldılar."},
+	{10, "11 RABbe övgüler, şükranlar sunarak ezgi okudular:  ‹‹RAB iyidir;  İsraile sevgisi sonsuzdur.›› RABbin Tapınağının temeli atıldığı için herkes yüksek sesle RABbi övmeye başladı."},
+	{11, "12 Eski tapınağı görmüş birçok yaşlı kâhin, Levili ve boy başı tapınağın temelinin atıldığını görünce hıçkıra hıçkıra ağladılar. Birçokları da sevinç çığlıkları attı."},
+	{12, "13 Sevinç çığlıkları ağlama sesinden ayırt edilemiyordu. Çünkü halk avaz avaz bağırıyordu. Ses uzak yerlerden bile duyuluyordu."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view4() {
+struct tr4 poems[] = {
+	{1, "1 Yahudalılarla Benyaminlilerin düşmanları, sürgünden dönenlerin İsrailin Tanrısı RAB için bir tapınak yaptığını duyunca,"},
+	{2, "2 Zerubbabilin ve boy başlarının yanına vardılar. ‹‹Tapınağı sizinle birlikte kuralım›› dediler, ‹‹Çünkü biz de, sizin gibi Tanrınıza tapıyoruz; bizi buraya getiren Asur Kralı Esarhaddonun döneminden bu yana sizin Tanrınıza kurban sunuyoruz.››"},
+	{3, "3 Ne var ki Zerubbabil, Yeşu ve İsrailin öteki boy başları, ‹‹Tanrımıza bir tapınak kurmak size düşmez›› diye karşılık verdiler, ‹‹Pers Kralı Koreşin buyruğu uyarınca, İsrailin Tanrısı RAB için tapınağı yalnız biz kuracağız.››"},
+	{4, "4 Bunun üzerine çevre halkı Yahudalıları tapınağın yapımından caydırmak için korkutmaya, cesaretlerini kırmaya girişti."},
+	{5, "5 Tasarılarına engel olmak için Pers Kralı Koreşin döneminden Pers Kralı Dariusun krallığına dek rüşvetle danışmanlar tuttular."},
+	{6, "6 Ahaşveroşunfç krallığının başlangıcında, Yahudalıların düşmanları Yahuda ve Yeruşalimde yaşayanları suçlayan bir belge düzenlediler."},
+	{7, "7 Pers Kralı Artahşastanın krallığı döneminde, Bişlam, Mitredat, Taveel ve öbür çalışma arkadaşları Artahşastaya bir mektup yazdılar. Mektup Aramice yazılıp çevrildi. yazılmıştır."},
+	{8, "8 Vali Rehum ile Yazman Şimşay Kral Artahşastaya Yeruşalimi suçlayan bir mektup yazdılar. Mektup şöyleydi:"},
+	{9, "9 ‹‹Vali Rehum, Yazman Şimşay ve öbür çalışma arkadaşları, yargıçlar, yöneticiler, görevliler, Persler, Erekliler, Babilliler, Elam topraklarından gelen Sus halkı,"},
+	{10, "10 büyük ve onurlu Asurbanipalın sürüp Samiriye Kentiyle Fıratın batı yakasındaki bölgeye yerleştirdiği öbür halklarından.››"},
+	{11, "11 İşte Kral Artahşastaya gönderilen mektubun örneği: ‹‹Kral Artahşastaya, ‹‹Fıratın batı yakasındaki bölgede yaşayan kullarından:"},
+	{12, "12 ‹‹Yönetimindeki öbür bölgelerden çıkıp bize gelen Yahudiler Yeruşalime yerleşerek o asi ve kötü kenti yeniden kurmaya başladılar. Bunu bilgine sunuyoruz. Temelini pekiştiriyor, surlarını tamamlıyorlar."},
+	{13, "13 Ey kral, bilmelisin ki, bu kent yeniden kurulur, surları tamamlanırsa, Yahudiler yine vergi ödemeyecek; krallığının geliri de azalacak."},
+	{14, "14 Biz sarayının ekmeğini yedik. Sana zarar gelmesine izin veremeyiz. Bunun için, haberin olsun diye bu mektubu gönderiyoruz."},
+	{15, "15 Atalarının belgeleri araştırılsın. Kayıtlarda bu kentin asi, krallara, valilere zarar veren bir kent olduğunu göreceksin. Bu kent öteden beri başkaldıran bir kenttir. Yerle bir edilmesinin nedeni de budur."},
+	{16, "16 Bu yüzden, ey kral, sana bildiriyoruz: Bu kent yeniden kurulur, surları tamamlanırsa, Fıratın batı yakasındaki bölgede hiçbir payın kalmayacak.›› yedik.››"},
+	{17, "17 Kral şu yanıtı gönderdi: ‹‹Samiriyede ve Fıratın batı yakasındaki öbür yerlerde yaşayan Vali Rehuma, Yazman Şimşaya ve öbür çalışma arkadaşlarına selamlar."},
+	{18, "18 ‹‹Bize gönderdiğiniz mektup çevrilip bana okundu."},
+	{19, "19 Buyruğum üzerine araştırma yapıldı. Bu kentin öteden beri krallara başkaldırdığı, isyan ettiği, ayaklandığı saptandı."},
+	{20, "20 Yeruşalimi güçlü krallar yönetti. Fıratın batı yakasındaki bütün bölgede egemenlik sürdüler. Oradaki halktan vergi topladılar."},
+	{21, "21 Şimdi işi durdurmaları için bu adamlara bir buyruk çıkarın. Öyle ki, ben buyruk vermedikçe kent yeniden kurulmasın."},
+	{22, "22 Bu konuya özen gösterin; krallığıma daha fazla zarar gelmesin.››"},
+	{23, "23 Kral Artahşastanın mektubunun örneği kendilerine okunur okunmaz, Rehum, Yazman Şimşay ve öbür çalışma arkadaşları hemen Yeruşalime Yahudilerin yanına gittiler ve zorla onları durdurdular."},
+	{24, "24 Böylece Tanrı'nın Yeruşalim'deki Tapınağı'nın yapımı, Pers Kralı Darius'un krallığının ikinci yılına dek askıda kaldı."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view5() {
+struct tr5 poems[] = {
+	{1, "1 O sırada Peygamber Hagay ile İddo oğlu Peygamber Zekeriya, Yahuda ve Yeruşalimdeki Yahudilere İsrail Tanrısının adıyla peygamberlikte bulundular."},
+	{2, "2 Bunun üzerine Şealtiel oğlu Zerubbabil ile Yosadak oğlu Yeşu Tanrının Yeruşalimdeki Tapınağını yeniden kurmaya giriştiler. Tanrının peygamberleri de onlarla birlikteydi ve onlara yardım ediyordu."},
+	{3, "3 Fıratın batı yakasındaki bölgenin valisi Tattenay, Şetar-Bozenay ve çalışma arkadaşları onlara gidip, ‹‹Bu tapınağı yeniden kurmak ve yapımını tamamlamak için size kim yetki verdi?›› diye sordular."},
+	{4, "4 Yapıyı kuranların adlarını da sordular."},
+	{5, "5 Ama Tanrıları Yahudi ileri gelenlerini koruyordu. Bu yüzden, Dariusa bir haber gönderilip ondan yazılı bir yanıt alınıncaya dek Yahudiler durdurulmadı."},
+	{6, "6 Fıratın batı yakasındaki bölgenin valisi Tattenay, Şetar-Bozenay, çalışma arkadaşları ve oradaki görevlilerin Kral Dariusa gönderdikleri mektubun örneği aşağıdadır."},
+	{7, "7 Gönderdikleri belge şöyleydi: ‹‹Kral Dariusa candan selamlar."},
+	{8, "8 Yahuda İline, yüce Tanrının Tapınağına gittiğimizi krala bildiririz. Tapınağı büyük taşlarla kuruyor, duvarlarına kirişler yerleştiriyorlar. Tapınağın yapımında canla başla çalışılıyor ve yapım işi başarıyla ilerliyor."},
+	{9, "9 ‹‹Halkın ileri gelenlerine, ‹Bu tapınağı yeniden kurmak ve yapımını tamamlamak için size kim yetki verdi?› diye sorduk."},
+	{10, "10 Bilgine sunmak üzere önderlerinin kim olduklarını sana yazabilmek için adlarını da sorduk."},
+	{11, "11 ‹‹İşte bize verdikleri yanıt: ‹‹Biz yerin ve göğün Tanrısının kullarıyız. Uzun yıllar önce İsrailin büyük bir kralının kurup yapımını tamamladığı tapınağı yeniden kuruyoruz."},
+	{12, "12 Ama atalarımız Göklerin Tanrısını öfkelendirdi. Bu yüzden Tanrı onları Babil Kralı Kildani Nebukadnessarın eline teslim etti. Nebukadnessar tapınağı yıktı, halkı da Babile sürdü."},
+	{13, "13 Ama Babil Kralı Koreş, krallığının birinci yılında Tanrının Tapınağının yeniden yapılması için buyruk verdi."},
+	{14, "14 Ayrıca Nebukadnessarın Tanrının Yeruşalimdeki Tapınağından çıkarıp Babildeki tapınağa götürdüğü altın ve gümüş kapları da oradan çıkararak vali atadığı Şeşbassar adlı kişiye verdi."},
+	{15, "15 Koreş ona, Bu kapları al, gidip Yeruşalimdeki tapınağa yerleştir dedi, Tanrının Tapınağını eski yerinde yeniden kur."},
+	{16, "16 Böylece Şeşbassar gelip Tanrının Yeruşalimdeki Tapınağının temelini attı. O günden bu yana yapım işleri sürmekte, ama daha bitmedi.›"},
+	{17, "17 ‹‹Kral uygun görüyorsa, Babil Sarayı'ndaki arşivde bir araştırma yapılsın. Tanrı'nın Yeruşalim'deki Tapınağı'nın yeniden kurulması için Kral Koreş'in bir buyruk verip vermediği saptansın. Sonra kral bu konuya ilişkin kararını bize bildirsin.››"},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view6() {
+struct tr6 poems[] = {
+	{1, "1 Kral Dariusun buyruğu uyarınca, Babilde kayıtların saklandığı odada araştırma yapıldı."},
+	{2, "2 Medya İlindeki Ahmeta Kalesinde bir tomar bulundu. Tomarın içinde şunlar yazılıydı:"},
+	{3, "3-4 ‹‹Kral Koreş, krallığının birinci yılında, Tanrının Yeruşalimdeki Tapınağına ilişkin şöyle buyruk verdi: ‹Kurban kesmek üzere bu tapınağın yeniden kurulması için temel atılsın. Üç sıra büyük taş, bir sıra kiriş döşensin. Yüksekliği ve genişliği altmışar arşınfı olsun. Giderler saraydan karşılansın."},
+	{4, "5 Nebukadnessarın Yeruşalimdeki Tanrının Tapınağından çıkarıp Babile getirdiği altın ve gümüş kaplar da geri verilsin. Yeruşalimdeki tapınakta özel yerlerine götürülsün. Hepsi Tanrının Tapınağına konsun.››"},
+	{5, "6 ‹‹Onun için siz, Fıratın batı yakasındaki bölge valisi Tattenay, Şetar-Bozenay, çalışma arkadaşları ve oranın görevlileri, tapınaktan uzak durun!"},
+	{6, "7 Tanrının Tapınağının yapım işlerine karışmayın. Bırakın, Yahudilerin valisiyle ileri gelenleri Tanrının Tapınağını eski yerinde yeniden kursunlar."},
+	{7, "8 Ayrıca Tanrının Tapınağının yeniden kurulması için Yahudi ileri gelenlerine neler yapmanız gerektiğini de size buyuruyorum: Bu adamların bütün giderleri kralın hazinesinden, Fıratın batı yakasındaki bölgeden toplanan vergilerden ödensin. Öyle ki, yapım işleri aksamasın."},
+	{8, "9 Yeruşalimdeki kâhinlerin bütün gereksinimlerini hiç aksatmadan her gün vereceksiniz: Göklerin Tanrısına sunulacak yakmalık sunular için genç boğalar, koçlar, kuzular ve buğday, tuz, şarap, zeytinyağı."},
+	{9, "10 Öyle ki, Göklerin Tanrısını hoşnut eden sunular sunsunlar, ben ve oğullarım sağ kalalım diye dua etsinler."},
+	{10, "11 Bundan başka buyuruyorum ki, bu kararı değiştirenin evinden bir kiriş çıkarılacak ve o kişi kirişin üzerine asılacak. Evi de bu suçtan ötürü çöplüğe çevrilecek."},
+	{11, "12 Yeruşalimi adına konut seçen Tanrı, bu kararı değiştirmeye, oradaki Tanrı Tapınağını yıkmaya kalkışan her kralı ve ulusu yok etsin. Ben Darius böyle buyurdum. Buyruğum özenle yerine getirilsin.››"},
+	{12, "13 Fıratın batı yakasındaki bölge valisi Tattenay, Şetar-Bozenay ve çalışma arkadaşları Kral Dariusun buyruğunu özenle yerine getirdiler."},
+	{13, "14 Peygamber Hagay ile İddo oğlu Zekeriyanın yaptıkları peygamberlik sayesinde Yahudi ileri gelenleri yapım işlerini başarıyla ilerlettiler. İsrail Tanrısının buyruğu ve Pers kralları Koreşin, Dariusun, Artahşastanın buyrukları uyarınca tapınağın yapımını bitirdiler."},
+	{14, "15 Tapınak Kral Dariusun krallığının altıncı yılı, Adar ayının üçüncü günü tamamlandı."},
+	{15, "16 İsrail halkı -kâhinler, Levililer ve sürgünden dönenlerin tümü- Tanrının Tapınağının adanmasını sevinçle kutladılar."},
+	{16, "17 Tanrının Tapınağının adanması için yüz boğa, iki yüz koç, dört yüz kuzu kurban ettiler. Oymakların sayısına göre, bütün İsrailliler için günah sunusu olarak on iki teke sundular."},
+	{17, "18 Musanın Kitabındaki kural uyarınca Tanrının Yeruşalimdeki hizmeti için kâhinlerle Levilileri bağlı oldukları bölüklere göre görevlere atadılar."},
+	{18, "19 Sürgünden dönenler birinci ayın on dördüncü günü Fısıh Bayramını kutladılar."},
+	{19, "20 Kâhinlerle Levililer hep birlikte kendilerini arındırdılar; dinsel açıdan hepsi arındı. Levililer sürgünden dönenlerin tümü, kardeşleri olan kâhinler ve kendileri için Fısıh kurbanını kestiler."},
+	{20, "21 Sürgünden dönen İsraillilerle İsrailin Tanrısı RABbe yönelmek amacıyla kendilerini çevredeki halkların kötü alışkanlıklarından ayırıp onlara katılanların hepsi kurban etinden yedi."},
+	{21, "22 Mayasız Ekmek Bayramı'nı yedi gün sevinçle kutladılar. Çünkü RAB onları sevindirdi ve Asur Kralı'nın onlara iyi davranmasını, İsrail'in Tanrısı Tanrı'nın Tapınağı'nın yapım işlerinde onlara yardım etmesini sağladı."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view7() {
+struct tr7 poems[] = {
+	{1, "1-6 Bu olaylardan sonra, Pers Kralı Artahşastanın krallığı döneminde, Başkâhin Harun oğlu Elazar oğlu Pinehas oğlu Avişua oğlu Bukki oğlu Uzzi oğlu Zerahya oğlu Merayot oğlu Azarya oğlu Amarya oğlu Ahituv oğlu Sadok oğlu Şallum oğlu Hilkiya oğlu Azarya oğlu Seraya oğlu Ezra adında biri Babilden geldi. Ezra İsrailin Tanrısı RABbin Musaya verdiği yasayı iyi bilen bir bilgindi. Tanrısı RABbin yardımıyla kral ona her istediğini verdi."},
+	{2, "7 Kral Artahşastanın krallığının yedinci yılında İsrail halkından, kâhinlerden, Levililerden, ezgicilerden, tapınak görevlilerinden ve kapı nöbetçilerinden bazıları Yeruşalime gitti."},
+	{3, "8 Ezra, Artahşastanın krallığının yedinci yılının beşinci ayında Yeruşalime vardı."},
+	{4, "9 Birinci ayın birinci günü Babilden ayrılmıştı. Tanrısının koruyucu eli sayesinde beşinci ayın birinci günü Yeruşalime vardı."},
+	{5, "10 Ezra kendini RABbin Yasasını inceleyip uygulamaya ve İsrailde kuralları, ilkeleri öğretmeye adamıştı."},
+	{6, "11 Kral Artahşastanın RABbin buyruklarını, İsrail için koyduğu kuralları iyi bilen Kâhin ve Bilgin Ezraya verdiği mektubun bir örneği şudur:"},
+	{7, "12 ‹‹Kralların Kralı Artahşastadan Gökler Tanrısının Yasasının bilgini Kâhin Ezraya selamlar!"},
+	{8, "13 ‹‹Krallığımda yaşayan İsrail halkından, kâhinlerden ve Levililerden Yeruşalime gitmek isteyen herkesin seninle gidebilmesi için buyruk veriyorum."},
+	{9, "14 Elindeki Tanrının Yasasının uygulanıp uygulanmadığı konusunda Yahuda ve Yeruşalimde araştırma yapman için, ben ve yedi danışmanım seni görevlendirdik."},
+	{10, "15 Benim ve danışmanlarımın Yeruşalimde konut kuran İsrailin Tanrısına gönülden verdiğimiz altını, gümüşü birlikte götürmelisin."},
+	{11, "16 Babil İlinden elde edeceğin altının, gümüşün tümünü, halkın ve kâhinlerin Tanrılarının Yeruşalimdeki Tapınağına gönülden verdikleri armağanları da alıp götürmelisin."},
+	{12, "17 ‹‹Bu parayla hemen boğalar, koçlar, kuzular, tahıl sunuları ve dökmelik sunular satın alacak ve hepsini Tanrının Yeruşalimdeki Tapınağının sunağı üzerinde sunacaksın."},
+	{13, "18 Sen ve kardeşlerin artan altını, gümüşü Tanrınızın isteği uyarınca dilediğiniz gibi kullanın."},
+	{14, "19 Tanrının Tapınağının hizmetinde kullanılmak üzere sana verilen kapların hepsini Yeruşalimin Tanrısına sun."},
+	{15, "20 Tanrının Tapınağı için ödemen gereken başka bir şey varsa, giderleri kralın hazinesinden karşılarsın."},
+	{16, "21 ‹‹Ben, Kral Artahşasta, Fıratın batı yakasındaki bölgenin bütün hazine görevlilerine buyruk veriyorum: Gökler Tanrısının Yasasının bilgini Kâhin Ezranın sizden her istediğini özenle yerine getirin."},
+	{17, "22 Kendisine gerektiğinde yüz talanta kadar gümüş, yüz kor buğday, yüz bat şarap, yüz bat zeytinyağı ve istediği kadar tuz sağlayın."},
+	{18, "23 Göklerin Tanrısı kendi tapınağı için ne buyurursa, özenle yerine getirin. Öyle ki, bana ve oğullarıma öfkelenmesin."},
+	{19, "24 Şunu da bilesiniz ki, kâhinlerden, Levililerden, ezgicilerden, tapınak görevlilerinden ve kapı nöbetçilerinden, Tanrının Tapınağının öbür hizmetkârlarından vergi almaya yetkiniz yoktur."},
+	{20, "25 ‹‹Sana gelince, Ezra, sendeki Tanrı bilgeliği uyarınca yargıçlar ata. Bunlar Fıratın batı yakasındaki bölgede yaşayan bütün halka, Tanrının yasalarını bilenlerin hepsine adalet sağlasınlar. Yasayı bilmeyenlere de siz öğreteceksiniz."},
+	{21, "26 Tanrının Yasasına ve kralın buyruklarına uymayanlar ya ölümle, ya sürgünle, ya mallarına el konarak, ya da hapsedilerek cezalandırılsın.››"},
+	{22, "27 Atalarımızın Tanrısı RABbe övgüler olsun! Kralın yüreğine Yeruşalimdeki tapınağını onurlandırma isteğini koydu."},
+	{23, "28 Kralın, danışmanlarının, güçlü komutanlarının bana iyi davranmalarını sağladı. Tanrım RAB'bin eli üzerimde olduğundan yüreklendim. İsrail ileri gelenlerinin bazılarını toplayıp benimle Yeruşalim'e dönmelerini sağladım."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view8() {
+struct tr8 poems[] = {
+	{1, "1 Artahşastanın krallığı döneminde ben Ezrayla birlikte Babilden dönen boy başlarının ve onlarla birlikte kayıtlı olanların listesi:"},
+	{2, "2 Pinehasoğullarından Gerşom,  İtamaroğullarından Daniel,  Davutoğullarından Hattuş."},
+	{3, "3 Şekanyaoğullarından, Paroşoğullarından Zekeriya ve onunla birlikte bu boydan kaydedilen 150 erkek."},
+	{4, "4 Pahat-Moavoğullarından Zerahya oğlu Elyehoenay ve onunla birlikte 200 erkek."},
+	{5, "5 Yahaziel oğlu Şekanyanın oğullarından 300 erkek."},
+	{6, "6 Adinoğullarından Yonatan oğlu Ebet ve onunla birlikte 50 erkek."},
+	{7, "7 Elamoğullarından Atalya oğlu Yeşaya ve onunla birlikte 70 erkek."},
+	{8, "8 Şefatyaoğullarından Mikael oğlu Zevadya ve onunla birlikte 80 erkek."},
+	{9, "9 Yoavoğullarından Yehiel oğlu Ovadya ve onunla birlikte 218 erkek."},
+	{10, "10 Yosifya oğlu Şelomitin oğullarından 160 erkek."},
+	{11, "11 Bevayoğullarından Bevay oğlu Zekeriya ve onunla birlikte 28 erkek."},
+	{12, "12 Azgatoğullarından Hakkatan oğlu Yohanan ve onunla birlikte 110 erkek."},
+	{13, "13 Adonikamın küçük oğullarından adları Elifelet, Yeiel, Şemaya olanlar ve onlarla birlikte 60 erkek."},
+	{14, "14 Bigvayoğullarından Utay, Zakkur ve onlarla birlikte 70 erkek."},
+	{15, "15 Onları Ahava Kentine doğru uzanan kanalın yanına topladım. Orada üç gün konakladık. Halkın ve kâhinlerin arasında yoklama yaptığımda orada Levililerden kimse olmadığını gördüm."},
+	{16, "16 Bunun üzerine Eliezer, Ariel, Şemaya, Elnatan, Yariv, Elnatan, Natan, Zekeriya, Meşullam adındaki önderleri, Öğretmen Yoyarivi ve Elnatanı çağırttım."},
+	{17, "17 Sonra onları Kasifyada bulunan Önder İddoya gönderdim. İddoya ve tapınak görevlisi olan kardeşlerine neler söylemeleri gerektiğini bildirdim. Öyle ki, bize Tanrımızın Tapınağında görev yapacak adamlar göndersinler."},
+	{18, "18 Tanrımızın iyiliği sayesinde İsrail oğlu Levi oğlu Mahlioğullarından Şerevya adında bilge bir kişiyi bize gönderdiler. Kendisiyle birlikte oğulları ve kardeşleri toplam on sekiz kişi geldi."},
+	{19, "19 Haşavyayı, Merarioğullarından Yeşayayı ve kardeşleriyle oğullarını, toplam yirmi kişiyi de gönderdiler."},
+	{20, "20 Ayrıca Levililere yardım etmek üzere Davutla görevlilerinin atadığı tapınak görevlilerinden iki yüz yirmi kişi gönderdiler. Hepsinin adı listeye yazılmıştı."},
+	{21, "21 Tanrımızın önünde alçakgönüllü davranmak, Ondan kendimiz, çocuklarımız, mallarımız için güvenli bir yolculuk dilemek üzere orada, Ahava Kanalı yanında oruç ilan ettim."},
+	{22, "22 Yolculuğumuz sırasında herhangi bir düşmandan bizi korumaları için, kraldan asker ve atlı istemeye utanıyordum. Çünkü krala, ‹‹Tanrımız kendisine yönelenlerin hepsine iyilik eder, ama kızgın öfkesi kendisini bırakanların üzerindedir›› demiştik."},
+	{23, "23 Oruç tuttuk ve bu konuda Tanrımıza yakardık. O da yakarışımızı yanıtladı."},
+	{24, "24 Şerevya, Haşavya ve kardeşlerinden on kişiyle birlikte on iki önde gelen kâhin seçtim."},
+	{25, "25 Kralın, danışmanlarının, komutanlarının ve orada bulunan İsraillilerin Tanrımızın Tapınağına bağışladığı altını, gümüşü, kapları tartıp onlara verdim."},
+	{26, "26 Tartıp verdiklerim şunlardır:  650 talant gümüş,  100 talant gümüş kap,  100 talant altın,"},
+	{27, "27 bin dariklik yirmi altın tas ve altın kadar değerli, kaliteli, parlak tunçtan iki kap."},
+	{28, "28 Onlara, ‹‹Siz RAB için kutsalsınız, bu kaplar da öyle›› dedim, ‹‹Altın ve gümüş, atalarınızın Tanrısı RABbe gönülden sunulan sunudur."},
+	{29, "29 RABbin Yeruşalimdeki Tapınağının odalarında, önde gelen kâhinlerin, Levililerin, İsrailin boy başlarının önünde tartıncaya dek bunları iyi koruyun.››"},
+	{30, "30 Böylece kâhinlerle Levililer Yeruşalime, Tanrımızın Tapınağına götürülmek için tartılan altını, gümüşü, kapları aldılar."},
+	{31, "31 Birinci ayın on ikinci günü Yeruşalime gitmek üzere Ahava Kanalından ayrıldık. Tanrımızın eli üzerimizdeydi; yol boyunca düşmandan, pusuya yatanların saldırısından bizi korudu."},
+	{32, "32 Sonunda Yeruşalime vardık. Orada üç gün kaldık."},
+	{33, "33 Dördüncü gün, Tanrımızın Tapınağına gidip altını, gümüşü, kapları tarttık ve Uriya oğlu Kâhin Meremota verdik. Pinehas oğlu Elazar, Levili Yeşu oğlu Yozavat ve Binnuy oğlu Noadya da onunla birlikteydi."},
+	{34, "34 Her şey sayıldı, tartıldı; tartılanların tümü anında kayda geçirildi."},
+	{35, "35 Sürgünden dönenler İsrailin Tanrısına yakmalık sunular sundular: Bütün İsrail için on iki boğa, doksan altı koç, yetmiş yedi kuzu ve günah sunusu olarak on iki teke. Bütün bunlar RABbe yakmalık sunu olarak sunuldu."},
+	{36, "36 Ayrıca kralın buyruklarını içeren belgeyi kralın satraplarına ve Fırat'ın batı yakasındaki valilere verdiler. Bunlar İsrail halkına ve Tanrı'nın Tapınağı'na yardım etmişlerdi."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view9() {
+struct tr9 poems[] = {
+	{1, "1 Bütün bunlardan sonra, önderler yanıma gelerek şöyle dediler: ‹‹İsrail halkı, kâhinlerle Levililer dahil, çevredeki halkların -Kenanlıların, Hititlerin, Perizlilerin, Yevusluların, Ammonluların, Moavlıların, Mısırlıların, Amorluların- iğrenç alışkanlıklarından kendilerini ayrı tutmadı."},
+	{2, "2 Kendilerine ve oğullarına bu halklardan kız aldılar. Böylece kutsal soy çevredeki halklarla karıştı. Önderlerle görevliler bu hainlikte öncülük etti.››"},
+	{3, "3 Bunu duyunca giysimi ve cüppemi yırttım, saçımı sakalımı yoldum, dehşet içinde oturakaldım."},
+	{4, "4 Sürgünden dönenlerin bu hainliğinden ötürü İsrailin Tanrısının sözlerinden titreyenlerin hepsi çevremde toplandı. Bense akşam sunusu sunulana dek dehşet içinde kaldım."},
+	{5, "5 Akşam sunusu saati gelince üzüntümü bir yana bırakıp kalktım. Giysimle cüppem hâlâ yırtıktı. Diz çöküp ellerimi Tanrım RABbe açtım."},
+	{6, "6 Şöyle dua ettim: ‹‹Ey Tanrım, yüzümü sana çevirmeye utanıyorum, sıkılıyorum. Ey Tanrım, günahlarımız başımızdan aşkın. Suçlarımız göklere ulaştı."},
+	{7, "7 Atalarımızın günlerinden bugüne dek suçlarımız içinde boğulduk. Günahlarımız yüzünden biz de, krallarımızla kâhinlerimiz de yabancı kralların eline teslim edildik. Kılıçtan geçirildik, sürgüne gönderildik. Yağmalandık. Bugün de olduğu gibi aşağılandık."},
+	{8, "8 ‹‹Şimdiyse Tanrımız RAB bir an için bize acıdı. Sürgünden kurtulan bir azınlık bıraktı bize. Kutsal yerinde bize sarsılmaz bir destek verdi. Gözlerimizi aydınlattı. Köleliğimizde bize yenilenme fırsatı sağladı."},
+	{9, "9 Köle olduğumuz halde Tanrımız bizi köle bırakmadı. Pers krallarının bize iyi davranmalarını sağladı: Tanrımızın Tapınağını yeniden kurmak, yıkık yerleri onarmak için bize yenilenme fırsatı verdi. Yeruşalimde ve Yahudada bize bir korunma duvarı verdi."},
+	{10, "1-011 ‹‹Ey Tanrımız, bundan başka ne diyebiliriz? Kulların peygamberler aracılığıyla verdiğin buyruklara uymadık. Şöyle demiştin: ‹Mülk edinmek için gitmekte olduğunuz ülke, orada yaşayan halkların iğrençlikleriyle kirlenmiştir. İğrençlikleri yüzünden ülke baştan başa murdarlıklarla doldu."},
+	{11, "12 Bunun için kızlarınızı onların oğullarına vermeyin. Onların kızlarını da oğullarınıza almayın. Hiçbir zaman onların esenliği ve iyiliği için çalışmayın. Öyle ki, güç bulasınız, ülkenin iyi ürünlerini yiyesiniz ve ülkeyi sonsuza dek oğullarınıza miras bırakasınız.›"},
+	{12, "13 ‹‹Başımıza gelenlere yaptığımız kötülükler ve büyük suçumuz neden oldu. Sen, ey Tanrımız, bizi hak ettiğimizden daha az cezalandırdın ve bize sürgünden kurtulan böyle bir azınlık bıraktın."},
+	{13, "14 ‹‹Yine buyruklarına karşı gelecek miyiz? Bu iğrençlikleri yapan halklarla evlilik bağıyla karışacak mıyız? Bunu yaparsak, tek kişi sağ kalmadan yok edinceye dek bize öfkelenmeyecek misin?"},
+	{14, "15 Ey İsrail'in Tanrısı RAB, sen adilsin! Bugün sürgünden kurtulan bir azınlık olarak bırakıldık. Senin önünde durmaya hakkımız olmadığı halde, suçlarımızın içinde önünde duruyoruz.››"},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view10() {
+struct tr10 poems[] = {
+	{1, "1 Ağlayarak kendini Tanrının Tapınağının önünde yere atan Ezra dua edip günahlarını açıkladı. Bu arada erkek, kadın, çocuk, İsraillilerden çok büyük bir topluluk Ezranın çevresine toplandı. Onlar da hıçkıra hıçkıra ağlıyordu."},
+	{2, "2 Elamoğullarından Yehiel oğlu Şekanya, Ezraya şöyle dedi: ‹‹Çevremizdeki halklardan yabancı karılar aldığımız için Tanrımıza ihanet ettik. Buna karşın İsrail için hâlâ umut var."},
+	{3, "3 Senin ve Tanrımızın buyrukları karşısında titreyenlerin öğütleri uyarınca, bütün yabancı kadınları ve çocuklarını uzaklaştırmak için Tanrımızla şimdi bir antlaşma yapalım. Bu antlaşma yasaya uygun olsun."},
+	{4, "4 Haydi kalk! Sorumluluk senin üzerinde. Biz seni destekleyeceğiz. Güçlü ol ve gerekeni yap!››"},
+	{5, "5 Bunun üzerine yerden kalkan Ezra önde gelen Levili kâhinlere ve öbür İsraillilere söyleneni yapmaları için ant içirdi. Hepsi ant içti."},
+	{6, "6 Sonra Ezra Tanrının Tapınağının önünden ayrılıp Elyaşiv oğlu Yehohananın odasına gitti. Orada gecelerken ne yemek yedi, ne su içti. Sürgünden dönenler Tanrıya bağlı kalmadığı için yas tutuyordu."},
+	{7, "7 Sürgünden dönenlerin hepsinin Yeruşalimde toplanması için Yahuda ve Yeruşalimde bir duyuru yapıldı:"},
+	{8, "8 Halkın önderlerinin ve ileri gelenlerinin kararı uyarınca, üç gün içinde gelmeyenin bütün malına el konulacak, kendisi de sürgünden dönenler topluluğundan atılacaktı."},
+	{9, "9 Bütün Yahudalı ve Benyaminli erkekler üç gün içinde Yeruşalimde toplandılar. Dokuzuncu ayın yirminci günü hepsi Tanrının Tapınağının önündeki alandaydı. Hem durumun öneminden, hem de yağmurdan ötürü herkes titriyordu."},
+	{10, "10 Kâhin Ezra kalkıp, ‹‹Siz Tanrıya ihanet ettiniz›› dedi, ‹‹Yabancı kadınlarla evlendiniz. İsrailin suçuna suç kattınız."},
+	{11, "11 Şimdi atalarınızın Tanrısı RABbe suçunuzu açıklayın. Onun istediğini yapın. Çevredeki halklardan ve yabancı karılardan ayrılın.››"},
+	{12, "12 Topluluk yüksek sesle şöyle karşılık verdi: ‹‹Bütün söylediklerini yapacağız."},
+	{13, "13 Yalnız kalabalık çok, üstelik hava da yağmurlu. Dışarda duracak gücümüz kalmadı. Hem bu bir iki günde çözülecek iş değil. Çünkü bu konuda çok günah işledik."},
+	{14, "14 Bütün topluluk adına önderlerimiz bu konuyla ilgilensin. Sonra kentlerimizde yabancı kadınla evli olan herkes saptanan bir zamanda kentin ileri gelenleri ve yargıçlarıyla birlikte gelsin. Yeter ki, Tanrımızın bu konudaki kızgın öfkesi üzerimizden kalksın.››"},
+	{15, "15 Ancak, Asahel oğlu Yonatan, Tikva oğlu Yahzeya ve onları destekleyen Meşullam ile Levili Şabbetay buna karşı çıktılar."},
+	{16, "16 Sürgünden dönenler bu öneriye göre davrandılar. Kâhin Ezra adlarını belirterek her boydan boy başlarını seçti. Onuncu ayın birinci günü oturup konuyu incelemeye başladılar."},
+	{17, "17 Birinci ayın birinci günü yabancı kadınlarla evlenen bütün erkeklerin durumunu incelemeyi bitirdiler."},
+	{18, "18 Kâhinlerin soyundan gelip yabancı kadınlarla evlenenler şunlardı: Yosadak oğlu Yeşunun oğullarından ve kardeşlerinin soyundan Maaseya, Eliezer, Yariv, Gedalya."},
+	{19, "19 Bunlar karılarını kovacaklarına söz verdiler. İşledikleri suç için suç sunusu olarak sürüden bir koç sundular."},
+	{20, "20 İmmeroğullarından: Hanani, Zevadya."},
+	{21, "21 Harimoğullarından: Maaseya, Eliya, Şemaya, Yehiel, Uzziya."},
+	{22, "22 Paşhuroğullarından: Elyoenay, Maaseya, İsmail, Netanel, Yozavat, Elasa."},
+	{23, "23 Levililerden: Yozavat, Şimi, Kelaya -Kelita- Petahya, Yahuda, Eliezer."},
+	{24, "24 Ezgicilerden: Elyaşiv. Tapınak kapı nöbetçilerinden: Şallum, Telem, Uri."},
+	{25, "25 Öbür İsraillilerden: Paroşoğullarından: Ramya, Yizziya, Malkiya, Miyamin, Elazar, Malkiya, Benaya."},
+	{26, "26 Elamoğullarından: Mattanya, Zekeriya, Yehiel, Avdi, Yeremot, Eliya."},
+	{27, "27 Zattuoğullarından: Elyoenay, Elyaşiv, Mattanya, Yeremot, Zavat, Aziza."},
+	{28, "28 Bevayoğullarından: Yehohanan, Hananya, Zabbay, Atlay."},
+	{29, "29 Banioğullarından: Meşullam, Malluk, Adaya, Yaşuv, Şeal, Yeremot."},
+	{30, "30 Pahat-Moavoğullarından: Adna, Kelal, Benaya, Maaseya, Mattanya, Besalel, Binnuy, Manaşşe."},
+	{31, "31 Harimoğullarından: Eliezer, Yişşiya, Malkiya, Şemaya, Şimon,"},
+	{32, "32 Benyamin, Malluk, Şemarya."},
+	{33, "33 Haşumoğullarından: Mattenay, Mattatta, Zavat, Elifelet, Yeremay, Manaşşe, Şimi."},
+	{34, "34 Banioğullarından: Maaday, Amram, Uel,"},
+	{35, "35 Benaya, Bedeya, Keluhu,"},
+	{36, "36 Vanya, Meremot, Elyaşiv,"},
+	{37, "37 Mattanya, Mattenay, Yaasay,"},
+	{38, "38 Bani, Binnuy, Şimi,"},
+	{39, "39 Şelemya, Natan, Adaya,"},
+	{40, "40 Maknadvay, Şaşay, Şaray,"},
+	{41, "41 Azarel, Şelemya, Şemarya,"},
+	{42, "42 Şallum, Amarya, Yusuf."},
+	{43, "43 Nevooğullarından: Yeiel, Mattitya, Zavat, Zevina, Yadday, Yoel, Benaya."},
+	{44, "44 Bunların hepsi yabancı kadınlarla evlenmişti. Bazılarının bu kadınlardan çocukları da vardı."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+};

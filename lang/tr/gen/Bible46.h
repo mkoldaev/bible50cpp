@@ -1,0 +1,518 @@
+#include <map>
+#include <string>
+class Bible46
+{
+	struct tr1	{ int val; const char *msg; };
+	struct tr2	{ int val; const char *msg; };
+	struct tr3	{ int val; const char *msg; };
+	struct tr4	{ int val; const char *msg; };
+	struct tr5	{ int val; const char *msg; };
+	struct tr6	{ int val; const char *msg; };
+	struct tr7	{ int val; const char *msg; };
+	struct tr8	{ int val; const char *msg; };
+	struct tr9	{ int val; const char *msg; };
+	struct tr10	{ int val; const char *msg; };
+	struct tr11	{ int val; const char *msg; };
+	struct tr12	{ int val; const char *msg; };
+	struct tr13	{ int val; const char *msg; };
+	struct tr14	{ int val; const char *msg; };
+	struct tr15	{ int val; const char *msg; };
+	struct tr16	{ int val; const char *msg; };
+public:
+static void view1() {
+struct tr1 poems[] = {
+	{1, "1-3 Tanrının isteğiyle Mesih İsanın elçisi olmaya çağrılan ben Pavlus ve kardeşimiz Sostenisten Tanrının Korintteki kilisesine selam! Mesih İsada kutsal kılınmış, kutsal olmaya çağrılmış olan sizlere ve hepimizin Rabbi İsa Mesihin adını her yerde anan herkese Babamız Tanrıdan ve Rab İsa Mesihten lütuf ve esenlik olsun."},
+	{2, "4 Tanrının Mesih İsada size bağışladığı lütuftan ötürü sizin için her zaman Tanrıma şükrediyorum."},
+	{3, "5-6 Mesihle ilgili tanıklığımız sizde pekiştiği gibi Mesihte her bakımdan -her tür söz ve bilgi bakımından- zenginleştiniz."},
+	{4, "7 Şöyle ki, Rabbimiz İsa Mesihin görünmesini beklerken hiçbir ruhsal armağandan yoksun değilsiniz."},
+	{5, "8 Rabbimiz İsa Mesih kendi gününde kusursuz olmanız için sizi sonuna dek pekiştirecektir."},
+	{6, "9 Sizleri Oğlu Rabbimiz İsa Mesihle paydaşlığa çağıran Tanrı güvenilirdir."},
+	{7, "10 Kardeşler, Rabbimiz İsa Mesihin adıyla yalvarıyorum: Hepiniz uyum içinde olun, aranızda bölünmeler olmadan aynı düşünce ve görüşte birleşin."},
+	{8, "11 Kardeşlerim, Kloinin ev halkından aranızda çekişmeler olduğunu öğrendim."},
+	{9, "12 Şunu demek istiyorum: Her biriniz, ‹‹Ben Pavlus yanlısıyım››, ‹‹Ben Apollos yanlısıyım››, ‹‹Ben Kefas yanlısıyım›› ya da ‹‹Ben Mesih yanlısıyım›› diyormuş."},
+	{10, "13 Mesih bölündü mü? Sizin için çarmıha gerilen Pavlus muydu? Pavlusun adıyla mı vaftiz edildiniz?"},
+	{11, "14-15 Hiç kimse benim adımla vaftiz edildiğinizi söylemesin diye Krispusla Gayustan başka hiçbirinizi vaftiz etmediğim için Tanrıya şükrediyorum."},
+	{12, "16 Evet, bir de İstefanasın ev halkını vaftiz ettim; bunun dışında kimseyi vaftiz ettiğimi anımsamıyorum."},
+	{13, "17 Çünkü Mesih beni vaftiz etmeye değil, Mesihin çarmıhtaki ölümü boşa gitmesin diye, bilgece sözlere dayanmaksızın Müjdeyi yaymaya gönderdi."},
+	{14, "18 Çarmıhla ilgili bildiri mahva gidenler için saçmalık, biz kurtulmakta olanlar içinse Tanrı gücüdür."},
+	{15, "19 Nitekim şöyle yazılmıştır:  ‹‹Bilgelerin bilgeliğini yok edeceğim,  Akıllıların aklını boşa çıkaracağım.››"},
+	{16, "20 Hani nerede bilge kişi? Din bilgini nerede? Nerede bu çağın hünerli tartışmacısı? Tanrı dünya bilgeliğinin saçma olduğunu göstermedi mi?"},
+	{17, "21 Mademki dünya Tanrının bilgeliği uyarınca Tanrıyı kendi bilgeliğiyle tanımadı, Tanrı iman edenleri saçma sayılan bildiriyle kurtarmaya razı oldu."},
+	{18, "22 Yahudiler doğaüstü belirtiler ister, Greklerse bilgelik arar."},
+	{19, "23 Ama biz çarmıha gerilmiş Mesihi duyuruyoruz. Yahudiler bunu yüzkarası, öteki uluslar da saçmalık sayarlar."},
+	{20, "24 Oysa Mesih, çağrılmış olanlar için -ister Yahudi ister Grek olsun- Tanrının gücü ve Tanrının bilgeliğidir."},
+	{21, "25 Çünkü Tanrının ‹‹saçmalığı›› insan bilgeliğinden daha üstün, Tanrının ‹‹zayıflığı›› insan gücünden daha güçlüdür."},
+	{22, "26 Kardeşlerim, aldığınız çağrıyı düşünün. Birçoğunuz insan ölçülerine göre bilge, güçlü ya da soylu kişiler değildiniz."},
+	{23, "27 Ne var ki, Tanrı bilgeleri utandırmak için dünyanın saçma saydıklarını, güçlüleri utandırmak için de dünyanın zayıf saydıklarını seçti."},
+	{24, "28 Dünyanın önemli gördüklerini hiçe indirmek için dünyanın önemsiz, soysuz, değersiz gördüklerini seçti."},
+	{25, "29 Öyle ki, Tanrının önünde hiç kimse övünemesin."},
+	{26, "30 Ama siz Tanrı sayesinde Mesih İsadasınız. O bizim için tanrısal bilgelik, doğruluk, kutsallık ve kurtuluş oldu."},
+	{27, "31 Bunun için yazılmış olduğu gibi, ‹‹Övünen, Rab'le övünsün.››"},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view2() {
+struct tr2 poems[] = {
+	{1, "1 Kardeşler, Tanrıyla ilgili bildiriyi duyurmak için size geldiğimde, söz ustalığıyla ya da üstün bilgelikle gelmedim."},
+	{2, "2 Aranızdayken, İsa Mesihten ve Onun çarmıha gerilişinden başka hiçbir şey bilmemeye kararlıydım."},
+	{3, "3 Size zayıflık ve korku içinde geldim, tir tir titriyordum!"},
+	{4, "4 Sözüm ve bildirim, insan bilgeliğinin ikna edici sözlerine değil, Ruhun kanıtlayıcı gücüne dayanıyordu."},
+	{5, "5 Öyle ki, imanınız insan bilgeliğine değil, Tanrı gücüne dayansın."},
+	{6, "6 Gerçi olgun kişiler arasında bilgece sözler söylüyoruz; ama bu bilgelik ne şimdiki çağın, ne de bu çağın gelip geçici önderlerinin bilgeliğidir."},
+	{7, "7-8 Tanrının saklı bilgeliğinden gizemli biçimde söz ediyoruz. Zamanın başlangıcından önce Tanrının bizim yüceliğimiz için belirlediği bu bilgeliği bu çağın önderlerinden hiçbiri anlamadı. Anlasalardı yüce Rabbi çarmıha germezlerdi."},
+	{8, "9 Yazılmış olduğu gibi,  ‹‹Tanrının kendisini sevenler için hazırladıklarını  Hiçbir göz görmedi,  Hiçbir kulak duymadı,  Hiçbir insan yüreği kavramadı.››"},
+	{9, "10 Oysa Tanrı Ruh aracılığıyla bunları bize açıkladı. Çünkü Ruh her şeyi, Tanrının derin düşüncelerini bile araştırır."},
+	{10, "11 İnsanın düşüncelerini, insanın içindeki ruhundan başka kim bilebilir? Bunun gibi, Tanrının düşüncelerini de Tanrının Ruhundan başkası bilemez."},
+	{11, "12 Tanrının bize lütfettiklerini bilelim diye, bu dünyanın ruhunu değil, Tanrıdan gelen Ruhu aldık."},
+	{12, "13 Ruhsal kişilere ruhsal gerçekleri açıklarken, Tanrının lütfettiklerini insan bilgeliğinin öğrettiği sözlerle değil, Ruhun öğrettiği sözlerle bildiririz."},
+	{13, "14 Doğal kişi, Tanrının Ruhuyla ilgili gerçekleri kabul etmez. Çünkü bunlar ona saçma gelir, ruhça değerlendirildikleri için bunları anlayamaz."},
+	{14, "15 Ruhsal kişi her konuda yargı yürütebilir, ama kimse onun hakkında yargı yürütemez."},
+	{15, "16 ‹‹Rab'bin düşüncesini kim bildi ki,  O'na öğüt verebilsin?›› Oysa biz Mesih'in düşüncesine sahibiz."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view3() {
+struct tr3 poems[] = {
+	{1, "1 Kardeşler, ben sizinle ruhsal kişilerle konuşur gibi konuşamadım. Benliğe uyanlarla, Mesihte henüz bebeklik çağında olanlarla konuşur gibi konuştum."},
+	{2, "2 Size süt verdim, katı yiyecek değil. Çünkü katı yiyeceği henüz yiyemiyordunuz. Şimdi bile yiyemezsiniz."},
+	{3, "3 Çünkü hâlâ benliğe uyuyorsunuz. Aranızda kıskançlık ve çekişme olması, benliğe uyduğunuzu, öbür insanlar gibi yaşadığınızı göstermiyor mu?"},
+	{4, "4 Biriniz, ‹‹Ben Pavlus yanlısıyım››, ötekiniz, ‹‹Ben Apollos yanlısıyım›› diyorsa, öbür insanlardan ne farkınız kalır?"},
+	{5, "5 Apollos kim, Pavlus kim? İman etmenize aracı olmuş hizmetkârlardır. Rab her birimize bir görev vermiştir."},
+	{6, "6 Tohumu ben ektim, Apollos suladı. Ama Tanrı büyüttü."},
+	{7, "7 Önemli olan, eken ya da sulayan değil, ekileni büyüten Tanrıdır."},
+	{8, "8 Ekenle sulayanın değeri birdir. Her biri kendi emeğinin karşılığını alacaktır."},
+	{9, "9 Biz Tanrının emektaşlarıyız. Sizler de Tanrının tarlası, Tanrının binasısınız."},
+	{10, "10 Tanrının bana lütfettiği görev uyarınca bilge bir mimar gibi temel attım, başkaları da bu temel üzerine inşa ediyor. Herkes nasıl inşa ettiğine dikkat etsin."},
+	{11, "11 Çünkü hiç kimse atılan temelden, yani İsa Mesihten başka bir temel atamaz."},
+	{12, "12 Bu temel üzerine kimi altın, gümüş ya da değerli taşlarla, kimi de tahta, ot ya da kamışla inşa edecek."},
+	{13, "13 Herkesin yaptığı iş belli olacak, yargı günü ortaya çıkacak. Herkesin işi ateşle açığa vurulacak. Ateş her işin niteliğini sınayacak."},
+	{14, "14 Bir kimsenin inşa ettikleri ateşe dayanırsa, o kimse ödülünü alacak."},
+	{15, "15 Yaptıkları yanarsa, zarar edecek. Kendisi kurtulacak, ama ateşten geçmiş gibi olacaktır."},
+	{16, "16 Tanrının tapınağı olduğunuzu, Tanrının Ruhunun sizde yaşadığını bilmiyor musunuz?"},
+	{17, "17 Kim Tanrının tapınağını yıkarsa, Tanrı da onu yıkacak. Çünkü Tanrının tapınağı kutsaldır ve o tapınak sizsiniz."},
+	{18, "18 Kimse kendini aldatmasın. Aranızdan biri bu çağın ölçülerine göre kendini bilge sanıyorsa, bilge olmak için ‹‹akılsız›› olsun!"},
+	{19, "19 Çünkü bu dünyanın bilgeliği Tanrının gözünde akılsızlıktır. Yazılmış olduğu gibi, ‹‹O, bilgeleri kurnazlıklarında yakalar.››"},
+	{20, "20 Yine, ‹‹Rab bilgelerin düşüncelerinin boş olduğunu bilir›› diye yazılmıştır."},
+	{21, "21 Bu nedenle hiç kimse insanlarla övünmesin. Çünkü her şey sizindir."},
+	{22, "22 Pavlus, Apollos, Kefas, dünya, yaşam ve ölüm, şimdiki ve gelecek zaman, her şey sizindir."},
+	{23, "23 Siz Mesih'insiniz, Mesih de Tanrı'nındır."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view4() {
+struct tr4 poems[] = {
+	{1, "1 Böylece insanlar bizi Mesihin hizmetkârları ve Tanrının sırlarının kâhyaları saysın."},
+	{2, "2 Kâhyada aranan başlıca nitelik güvenilir olmasıdır."},
+	{3, "3 Sizin tarafınızdan ya da olağan bir mahkeme tarafından yargılanırsam hiç aldırmam. Kendi kendimi de yargılamıyorum."},
+	{4, "4 Kendimde bir kusur görmüyorum. Ama bu beni aklamaz. Beni yargılayan Rabdir."},
+	{5, "5 Bu nedenle, belirlenen zamandan önce hiçbir şeyi yargılamayın. Rabbin gelişini bekleyin. O, karanlığın gizlediklerini aydınlığa çıkaracak, yüreklerdeki amaçları açığa vuracaktır. O zaman herkes Tanrıdan payına düşen övgüyü alacaktır."},
+	{6, "6 Kardeşler, bizden örnek alarak, ‹‹Yazılmış olanın dışına çıkmayın›› sözünün anlamını öğrenmeniz için bu ilkeleri sizin yararınıza kendime ve Apollosa uyguladım. Öyle ki, hiç kimse biriyle övünüp bir başkasını hor görmesin."},
+	{7, "7 Seni başkasından üstün kılan kim? Tanrıdan almadığın neyin var ki? Madem aldın, niçin almamış gibi övünüyorsun?"},
+	{8, "8 Zaten tok ve zenginsiniz! Biz olmadan krallar olmuşsunuz! Keşke gerçekten krallar olsaydınız da, biz de sizinle birlikte krallık etseydik!"},
+	{9, "9 Kanımca Tanrı biz elçileri, en geriden gelen ölüm hükümlüleri gibi gözler önüne serdi. Hem melekler hem insanlar için, bütün evren için seyirlik oyun olduk."},
+	{10, "10 Biz Mesih uğruna akılsızız, ama siz Mesihte akıllısınız! Biz zayıfız, siz güçlüsünüz! Siz saygıdeğer kişilersiniz, bizse değersiziz!"},
+	{11, "11 Şu ana dek aç, susuz, çıplağız. Dövülüyoruz, barınacak yerimiz yok."},
+	{12, "12 Kendi ellerimizle çalışıp emek veriyoruz. Bize sövenlere iyilik diliyoruz, zulmedilince sabrediyoruz."},
+	{13, "13 İftiraya uğrayınca tatlılıkla karşılık veriyoruz. Şu ana dek adeta dünyanın süprüntüsü, her şeyin döküntüsü olduk."},
+	{14, "14 Bunları sizi utandırmak için değil, siz sevgili çocuklarımı uyarmak için yazıyorum."},
+	{15, "15 Çünkü Mesihin yolunda sayısız eğiticiniz olsa da çok sayıda babanız yoktur. Size Müjdeyi ulaştırmakla Mesih İsada manevi babanız oldum."},
+	{16, "16 Bu nedenle beni örnek almaya çağırıyorum sizi."},
+	{17, "17 Rabbe sadık olan sevgili çocuğum Timoteosu bu amaçla size gönderiyorum. Her yerde, her kilisede öğrettiğim ve Mesihte izlediğim yolları o size anımsatacaktır."},
+	{18, "18 Bazılarınız yanınıza gelmeyeceğimi sanarak küstahlaşıyor."},
+	{19, "19 Ama Rab dilerse yakında yanınıza geleceğim. O zaman bu küstahların söylediklerini değil, güçlerinin ne olduğunu öğreneceğim."},
+	{20, "20 Çünkü Tanrının Egemenliği lafta değil, güçtedir."},
+	{21, "21 Ne istiyorsunuz? Size sopayla mı geleyim, yoksa sevgi ve yumuşak bir ruhla mı?"},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view5() {
+struct tr5 poems[] = {
+	{1, "1 Aranızda fuhuş olduğu söyleniyor, üstelik putperestler arasında bile rastlanmayan türden bir fuhuş! Biri babasının karısını almış."},
+	{2, "2 Siz hâlâ böbürleniyorsunuz! Oysa yas tutup bu işi yapanı aranızdan atmanız gerekmez miydi?"},
+	{3, "3-5 Bedence olmasa da ruhça aranızdayım. Bu suçu işleyeni, aranızdaymışım gibi Rabbimiz İsanın adıyla zaten yargılamış bulunuyorum. Ben ruhça aranızdayken Rabbimiz İsanın gücüyle toplandığınız zaman, bedeninin yok olması için bu adamı Şeytana teslim edin ki, Rab İsanın gününde ruhu kurtulabilsin."},
+	{4, "6 Övünmeniz yersizdir. Azıcık mayanın bütün hamuru kabarttığını bilmiyor musunuz?"},
+	{5, "7 Yeni bir hamur olabilmek için eski mayadan arınıp temizlenin. Zaten mayasızsınız. Çünkü Fısıh kuzumuz Mesih kurban edildi."},
+	{6, "8 Bunun için eski mayayla -kin ve kötülük mayasıyla- değil, içtenliğin ve dürüstlüğün mayasız ekmeğiyle bayram edelim."},
+	{7, "9 Mektubumda size fuhuş yapanlarla arkadaşlık etmemenizi yazdım."},
+	{8, "10 Kuşkusuz dünyadaki ahlaksızları, açgözlüleri, soyguncuları ya da putperestleri demek istemedim. Öyle olsaydı, dünyadan ayrılmak zorunda kalırdınız!"},
+	{9, "11 Ama şimdi size şunu yazıyorum: Kardeş diye bilinirken fuhuş yapan, açgözlü, putperest, sövücü, ayyaş ya da soyguncu olanla arkadaşlık etmeyin, böyle biriyle yemek bile yemeyin."},
+	{10, "12 İnanlılar topluluğunun dışındakileri yargılamaya benim ne hakkım var? Sizin de yargılamanız gereken kişiler topluluğun içindekiler değil mi?"},
+	{11, "13 Topluluğun dışında kalanları Tanrı yargılar. ‹‹Kötü adamı aranızdan kovun!››"},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view6() {
+struct tr6 poems[] = {
+	{1, "1 Sizden birinin öbürüne karşı bir davası varsa kutsallar önünde değil de, imansızlar önünde yargılanmaya cesaret eder mi?"},
+	{2, "2 Kutsalların dünyayı yargılayacağını bilmiyor musunuz? Madem dünyayı yargılayacaksınız, böyle önemsiz davaları görmeye yeterli değil misiniz?"},
+	{3, "3 Bu yaşamla ilgili davalar bir yana, melekleri bile yargılayacağımızı bilmiyor musunuz?"},
+	{4, "4 Bu yaşamla ilgili davalarınız olduğunda, inanlılar topluluğunda en önemsiz sayılanları mı yargıç atıyorsunuz?"},
+	{5, "5 Sizi utandırmak için söylüyorum bunu. Kardeşler arasındaki davalarda yargıçlık edecek kadar bilge biri yok mu aranızda?"},
+	{6, "6 Kardeş kardeşe karşı dava açıyor, üstelik imansızlar önünde!"},
+	{7, "7 Aslında birbirinizden davacı olmanız bile sizin için düpedüz yenilgidir. Haksızlığa uğrasanız daha iyi olmaz mı? Dolandırılsanız daha iyi olmaz mı?"},
+	{8, "8 Bunun yerine, siz kendiniz haksızlık edip başkasını dolandırıyorsunuz. Üstelik bunu kardeşlerinize yapıyorsunuz."},
+	{9, "9-10 Günahkârların, Tanrı Egemenliğini miras almayacağını bilmiyor musunuz? Aldanmayın! Ne fuhuş yapanlar Tanrının Egemenliğini miras alacaktır, ne puta tapanlar, ne zina edenler, ne oğlanlar, ne oğlancılar, ne hırsızlar, ne açgözlüler, ne ayyaşlar, ne sövücüler, ne de soyguncular."},
+	{10, "11 Bazılarınız böyleydiniz; ama yıkandınız, kutsal kılındınız, Rab İsa Mesih adıyla ve Tanrımızın Ruhu aracılığıyla aklandınız."},
+	{11, "12 ‹‹Bana her şey serbest›› diyorsunuz, ama her şey yararlı değildir. ‹‹Bana her şey serbest›› diyorsunuz, ama hiçbir şeyin tutsağı olmayacağım."},
+	{12, "13 ‹‹Yemek mide için, mide de yemek içindir›› diyorsunuz, ama Tanrı hem mideyi hem de yemeği ortadan kaldıracaktır. Beden fuhuş için değil, Rab içindir. Rab de beden içindir."},
+	{13, "14 Rabbi dirilten Tanrı, kudretiyle bizi de diriltecek."},
+	{14, "15 Bedenlerinizin Mesihin üyeleri olduğunu bilmiyor musunuz? Mesihin üyelerini alıp bir fahişenin üyeleri mi yapayım? Asla!"},
+	{15, "16 Yoksa fahişeyle birleşenin, onunla tek beden olduğunu bilmiyor musunuz? Çünkü ‹‹İkisi tek beden olacak›› deniyor."},
+	{16, "17 Rable birleşen kişiyse Onunla tek ruh olur."},
+	{17, "18 Fuhuştan kaçının. İnsanın işlediği bütün öbür günahlar bedenin dışındadır; ama fuhuş yapan, kendi bedenine karşı günah işler."},
+	{18, "19 Bedeninizin, Tanrıdan aldığınız ve içinizdeki Kutsal Ruhun tapınağı olduğunu bilmiyor musunuz? Kendinize ait değilsiniz."},
+	{19, "20 Bir bedel karşılığı satın alındınız; onun için Tanrı'yı bedeninizde yüceltin."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view7() {
+struct tr7 poems[] = {
+	{1, "1 Şimdi bana yazdığınız konulara gelelim: ‹‹Erkeğin kadına dokunmaması iyidir›› diyorsunuz."},
+	{2, "2 Ama fuhuştan ötürü her erkek karısıyla, her kadın da kocasıyla yaşasın."},
+	{3, "3 Erkek karısına, kadın da kocasına hakkını versin."},
+	{4, "4 Kadının bedeni kendisine değil, kocasına aittir. Bunun gibi, erkeğin bedeni de kendisine değil, karısına aittir."},
+	{5, "5 Geçici bir süre için anlaşıp kendinizi duaya vermekten başka bir nedenle birbirinizi mahrum etmeyin. Sonra yine birleşin ki, kendinizi denetleyemediğiniz için Şeytan sizi ayartmasın."},
+	{6, "6 Bunu bir buyruk olarak değil, bir uzlaşma yolu olarak söylüyorum."},
+	{7, "7 Herkesin benim gibi olmasını dilerdim. Ama herkesin Tanrıdan aldığı ruhsal bir armağanı vardır; kiminin şöyle, kiminin böyle."},
+	{8, "8 Yine de evli olmayanlarla dul kadınlara şunu söyleyeyim: Benim gibi kalsalar kendileri için iyi olur."},
+	{9, "9 Ama kendilerini denetleyemiyorlarsa, evlensinler. Çünkü için için yanmaktansa evlenmek daha iyidir."},
+	{10, "10 Evlilereyse şunu buyuruyorum, daha doğrusu Rab buyuruyor: Kadın kocasından ayrılmasın."},
+	{11, "11 Ayrılırsa evlenmesin, ya da kocasıyla barışsın. Erkek de karısını boşamasın."},
+	{12, "12 Geri kalanlara Rab değil, ben söylüyorum: Eğer bir kardeşin karısı iman etmemişse ama kendisiyle yaşamaya razıysa, onu boşamasın."},
+	{13, "13 Bir kadının kocası iman etmemişse ama kendisiyle yaşamaya razıysa, kadın onu boşamasın."},
+	{14, "14 Çünkü iman etmemiş koca karısı aracılığıyla, iman etmemiş kadın da imanlı kocası aracılığıyla kutsanır. Yoksa çocuklarınız murdar olurdu. Ama şimdi kutsaldırlar."},
+	{15, "15 İman etmeyen ayrılırsa ayrılsın. Kardeş ya da kızkardeş böyle durumlarda özgürdür. Tanrı sizi barış içinde yaşamaya çağırdı."},
+	{16, "16 Ey kadın, kocanı kurtarıp kurtaramayacağını nereden biliyorsun? Ey erkek, karını kurtarıp kurtaramayacağını nereden biliyorsun?"},
+	{17, "17 Ancak herkes Rabbin kendisi için belirlediği duruma uygun biçimde, Tanrıdan aldığı çağrıya göre yaşasın. Bunu bütün kiliselere buyuruyorum."},
+	{18, "18 Biri sünnetliyken mi çağrıldı, sünnetsiz olmasın. Bir başkası sünnetsizken mi çağrıldı, sünnet olmasın."},
+	{19, "19 Sünnetli olup olmamak önemli değildir. Önemli olan, Tanrının buyruklarını yerine getirmektir."},
+	{20, "20 Herkes ne durumda çağrıldıysa, o durumda kalsın."},
+	{21, "21 Köleyken mi çağrıldın, üzülme. Ama özgür olabilirsen, fırsatı kaçırma!"},
+	{22, "22 Çünkü Rabbin çağrısını aldığı zaman köle olan kimse, şimdi Rabbin özgürüdür. Özgürken çağrılan kişi de Mesihin kölesidir."},
+	{23, "23 Bir bedel karşılığı satın alındınız, insanlara köle olmayın."},
+	{24, "24 Kardeşler, herkes ne durumda çağrıldıysa, Tanrı önünde o durumda kalsın."},
+	{25, "25 Kızlara gelince, Rabden onlarla ilgili bir buyruk almış değilim. Ama Rabbin merhameti sayesinde güvenilir biri olarak düşündüklerimi söylüyorum."},
+	{26, "26 Öyle sanıyorum ki, şimdiki sıkıntılar nedeniyle insanın olduğu gibi kalması iyidir."},
+	{27, "27 Karın varsa, boşanmayı isteme. Karın yoksa, kendine eş arama."},
+	{28, "28 Ama evlenirsen günah işlemiş olmazsın. Bir kız da evlenirse günah işlemiş olmaz. Ne var ki, evlenenler bu yaşamda sıkıntılarla karşılaşacak. Ben sizi bu sıkıntılardan esirgemek istiyorum."},
+	{29, "29-31 Kardeşler, şunu demek istiyorum: Zaman daralmıştır. Bundan böyle, karısı olanlar karıları yokmuş gibi, yas tutanlar yas tutmuyormuş gibi, sevinenler sevinmiyormuş gibi, mal alanlar malları yokmuş gibi, dünyadan yararlananlar alabildiğine yararlanmıyormuş gibi olsun. Çünkü dünyanın şimdiki hali geçicidir."},
+	{30, "32 Kaygısız olmanızı istiyorum. Evli olmayan erkek, Rabbi nasıl hoşnut edeceğini düşünerek Rabbin işleri için kaygılanır."},
+	{31, "33 Evli erkekse karısını nasıl hoşnut edeceğini düşünerek dünya işleri için kaygılanır."},
+	{32, "34 Böylece ilgisi bölünür. Evli olmayan kadın ya da kız hem bedence hem ruhça kutsal olmak amacıyla Rabbin işleri için kaygılanır. Evli kadınsa kocasını nasıl hoşnut edeceğini düşünerek dünya işleri için kaygılanır."},
+	{33, "35 Bunu sizin iyiliğiniz için söylüyorum, özgürlüğünüzü kısıtlamak için değil. İlginizi dağıtmadan, Rabbe adanmış olarak, Ona yaraşır biçimde yaşamanızı istiyorum."},
+	{34, "36 Bir kimse nişanlı olduğu kıza yakışıksız davrandığını düşünüyorsa, aşırı tutkuları varsa ve evlenmesi gerekiyorsa, istediğini yapsın, günah işlemiş olmaz; evlensinler."},
+	{35, "37 Ama zorunluluk altında bulunmayan, yüreği kararlı, istediğini yapabilecek durumdaki kişi, nişanlısıyla evlenmemeye yüreğinde karar vermişse, iyi eder."},
+	{36, "38 Kısacası nişanlısıyla evlenen iyi eder, evlenmeyense daha iyi eder."},
+	{37, "39 Kadın, kocası yaşadıkça kocasına bağlıdır. Kocası ölürse dilediği kimseyle evlenmekte özgürdür; yeter ki, o kişi Rabbe ait biri olsun."},
+	{38, "40 Ama dul kadın, olduğu gibi kalırsa daha mutlu olur. Ben böyle düşünüyorum ve sanırım bende de Tanrı'nın Ruhu vardır."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view8() {
+struct tr8 poems[] = {
+	{1, "1 Şimdi putlara sunulan kurbanların etine gelelim. ‹‹Hepimizin bilgisi var›› diyorsunuz, bunu biliyoruz. Bilgi insanı böbürlendirir, sevgiyse geliştirir."},
+	{2, "2 Bir şey bildiğini sanan, henüz bilmesi gerektiği gibi bilmiyordur."},
+	{3, "3 Ama Tanrıyı seveni Tanrı bilir."},
+	{4, "4 Putlara sunulan kurban etinin yenmesine gelince, biliyoruz ki, ‹‹Dünyada put bir hiçtir›› ve ‹‹Birden fazla Tanrı yoktur››."},
+	{5, "5-6 Yerde ya da gökte ilah diye adlandırılanlar varsa da -nitekim pekçok ‹‹ilah››, pekçok ‹‹rab›› vardır- bizim için tek bir Tanrı Baba vardır. O her şeyin kaynağıdır, bizler Onun için yaşıyoruz. Tek bir Rab var, O da İsa Mesihtir. Her şey Onun aracılığıyla yaratıldı, biz de Onun aracılığıyla yaşıyoruz."},
+	{6, "7 Ne var ki, herkes bu bilgiye sahip değildir. Hâlâ putperest alışkanlıklarının etkisinde kalan bazıları, yedikleri etin puta sunulduğunu düşünüyorlar. Vicdanları zayıf olduğu için lekeleniyor."},
+	{7, "8 Yiyecek bizi Tanrıya yaklaştırmaz. Yemezsek bir kaybımız olmaz, yersek de bir kazancımız olmaz."},
+	{8, "9 Yalnız dikkat edin, bu özgürlüğünüz vicdanı zayıf olanların sürçmesine neden olmasın."},
+	{9, "10 Eğer zayıf vicdanlı biri, bilgili olan seni bir put tapınağında sofraya oturmuş görürse, puta sunulan kurbanın etini yemek için cesaret almaz mı?"},
+	{10, "11 Sonuçta bu zayıf vicdanlı kişi, Mesihin uğruna öldüğü bu kardeş, senin bilgin yüzünden mahvolur!"},
+	{11, "12 Bu şekilde kardeşlere karşı günah işleyip onların zayıf vicdanlarını yaralayarak Mesihe karşı günah işlemiş olursunuz."},
+	{12, "13 Bu nedenle, yediğim şey kardeşimin sendeleyip düşmesine yol açacaksa, kardeşimin düşmemesi için bir daha et yemeyeceğim."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view9() {
+struct tr9 poems[] = {
+	{1, "1 Özgür değil miyim? Elçi değil miyim? Rabbimiz İsayı görmedim mi? Sizler Rab yolunda verdiğim emeğin ürünü değil misiniz?"},
+	{2, "2 Başkaları için elçi değilsem bile, sizler için elçiyim ya! Rab yolunda elçiliğimin kanıtı sizsiniz."},
+	{3, "3 Beni sorguya çekenlere karşı kendimi böyle savunurum."},
+	{4, "4 Yiyip içmeye hakkımız yok mu bizim?"},
+	{5, "5 Öbür elçiler gibi, Rabbin kardeşleri ve Kefas gibi, yanımızda imanlı bir eş gezdirmeye hakkımız yok mu?"},
+	{6, "6 Geçimi için çalışması gereken yalnız Barnabayla ben miyim?"},
+	{7, "7 Kim kendi parasıyla askerlik yapar? Kim bağ diker de ürününü yemez? Kim sürüyü güder de sütünden içmez?"},
+	{8, "8 İnsansal açıdan mı söylüyorum bunları? Kutsal Yasa da aynı şeyleri söylemiyor mu?"},
+	{9, "9-10 Musanın Yasasında, ‹‹Harman döven öküzün ağzını bağlamayacaksın›› diye yazılmıştır. Tanrının kaygısı öküzler mi, yoksa bunu özellikle bizim için mi söylüyor? Kuşkusuz, bizim için yazılmıştır bu. Çünkü çift sürenin umutla sürmesi, harman dövenin de harmana ortak olma umuduyla dövmesi gerekir."},
+	{10, "11 Aranıza ruhsal tohumlar ektiysek, sizden maddesel bir harman biçmemiz çok mu?"},
+	{11, "12 Başkalarının sizden yardım almaya hakları varsa, bizim daha çok hakkımız yok mu? Ama biz bu hakkımızı kullanmadık. Mesih Müjdesinin yayılmasına engel olmayalım diye her şeye katlanıyoruz."},
+	{12, "13 Tapınakta çalışanların tapınaktan beslendiklerini, sunakta görevli olanların da sunakta adanan adaklardan pay aldıklarını bilmiyor musunuz?"},
+	{13, "14 Bunun gibi, Rab Müjdeyi yayanların da geçimlerini Müjdeden sağlamasını buyurdu."},
+	{14, "15 Ama ben bu haklardan hiçbirini kullanmış değilim. Bunlar bana sağlansın diye de yazmıyorum. Bunu yapmaktansa ölmeyi yeğlerim. Kimse beni bu övünçten yoksun bırakmayacaktır!"},
+	{15, "16 Müjdeyi yayıyorum diye övünmeye hakkım yok. Çünkü bunu yapmakla yükümlüyüm. Müjdeyi yaymazsam vay halime!"},
+	{16, "17 Eğer Müjdeyi gönülden yayarsam, ödülüm olur; gönülsüzce yayarsam, yalnızca bana emanet edilen görevi yapmış olurum."},
+	{17, "18 Peki, ödülüm nedir? Müjdeyi karşılıksız yaymak ve böylece Müjdeyi yaymaktan doğan hakkımı kullanmamaktır."},
+	{18, "19 Ben özgürüm, kimsenin kölesi değilim. Ama daha çok kişi kazanayım diye herkesin kölesi oldum."},
+	{19, "20 Yahudileri kazanmak için Yahudilere Yahudi gibi davrandım. Kendim Kutsal Yasanın denetimi altında olmadığım halde, Yasa altında olanları kazanmak için onlara Yasa altındaymışım gibi davrandım."},
+	{20, "21 Tanrının Yasasına sahip olmayan biri değilim, Mesihin Yasası altındayım. Buna karşın, Yasaya sahip olmayanları kazanmak için Yasaya sahip değilmişim gibi davrandım."},
+	{21, "22 Güçsüzleri kazanmak için onlarla güçsüz oldum. Ne yapıp yapıp bazılarını kurtarmak için herkesle her şey oldum."},
+	{22, "23 Bunların hepsini Müjdede payım olsun diye, Müjde uğruna yapıyorum."},
+	{23, "24 Koşu alanında yarışanların hepsi koştuğu halde ödülü bir kişinin kazandığını bilmiyor musunuz? Öyle koşun ki ödülü kazanasınız."},
+	{24, "25 Yarışa katılan herkes kendini her yönden denetler. Böyleleri bunu çürüyüp gidecek bir defne tacı kazanmak için yaparlar. Bizse hiç çürümeyecek bir taç için yapıyoruz."},
+	{25, "26 Bunun içindir ki, amaçsızca koşan biri gibi koşmuyorum. Yumruğumu havayı döver gibi boşa atmıyorum."},
+	{26, "27 Müjde'yi başkalarına duyurduktan sonra kendim reddedilmemek için bedenime eziyet çektirip onu köle ediyorum."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view10() {
+struct tr10 poems[] = {
+	{1, "1 Kardeşler, atalarımızın hepsinin bulut altında korunduğunu ve hepsinin denizden geçtiğini bilmenizi istiyorum."},
+	{2, "2 Musaya bağlanmak üzere hepsi bulutta ve denizde vaftiz edildi."},
+	{3, "3 Hepsi aynı ruhsal yiyeceği yedi;"},
+	{4, "4 hepsi aynı ruhsal içeceği içti. Artlarından gelen ruhsal kayadan içtiler; o kaya Mesihti."},
+	{5, "5 Ne var ki, Tanrı onların çoğundan hoşnut değildi; nitekim cesetleri çöle serildi."},
+	{6, "6 Bu olaylar, onlar gibi kötü şeylere özlem duymamamız için bize ders olsun diye oldu."},
+	{7, "7 Onlardan bazıları gibi puta tapanlar olmayın. Nitekim şöyle yazılmıştır: ‹‹Halk yiyip içmeye oturdu, sonra kalkıp çılgınca eğlendi.››"},
+	{8, "8 Onlardan bazıları gibi fuhuş yapmayalım. Fuhuş yapanların yirmi üç bini bir günde yok oldu."},
+	{9, "9 Yine bazıları gibi Rabbi denemeyelim. Böyle yapanları yılanlar öldürdü."},
+	{10, "10 Kimileri gibi de söylenip durmayın. Söylenenleri ölüm meleği öldürdü."},
+	{11, "11 Bu olaylar başkalarına ders olsun diye onların başına geldi; çağların sonuna ulaşmış olan bizleri uyarmak için yazıya geçirildi."},
+	{12, "12 Onun için, ayakta sağlam durduğunu sanan dikkat etsin, düşmesin!"},
+	{13, "13 Herkesin karşılaştığı denemelerden başka denemelerle karşılaşmadınız. Tanrı güvenilirdir, gücünüzü aşan biçimde denenmenize izin vermez. Dayanabilmeniz için denemeyle birlikte çıkış yolunu da sağlayacaktır."},
+	{14, "14 Bu nedenle, sevgili kardeşlerim, putperestlikten kaçının."},
+	{15, "15 Aklı başında insanlarla konuşur gibi konuşuyorum. Söylediklerimi kendiniz tartın."},
+	{16, "16 Tanrıya şükrettiğimiz şükran kâsesiyle Mesihin kanına paydaş olmuyor muyuz? Bölüp yediğimiz ekmekle Mesihin bedenine paydaş olmuyor muyuz?"},
+	{17, "17 Ekmek bir olduğu gibi, biz de çok olduğumuz halde bir bedeniz. Çünkü hepimiz bir ekmeği paylaşıyoruz."},
+	{18, "18 İsrail halkına bakın; kurban etini yiyenler sunağa paydaş değil midir?"},
+	{19, "19 Öyleyse ne demek istiyorum? Puta sunulan kurban etinin bir özelliği mi var? Ya da putun bir önemi mi var?"},
+	{20, "20 Hayır, yok! Dediğim şu: Putperestler kurbanlarını Tanrıya değil, cinlere sunuyorlar. Cinlerle paydaş olmanızı istemem."},
+	{21, "21 Hem Rabbin, hem cinlerin kâsesinden içemezsiniz; hem Rabbin, hem cinlerin sofrasına ortak olamazsınız."},
+	{22, "22 Yoksa Rabbi kıskandırmaya mı çalışıyoruz? Biz Ondan daha mı güçlüyüz?"},
+	{23, "23 ‹‹Her şey serbest›› diyorsunuz, ama her şey yararlı değildir. ‹‹Her şey serbest›› diyorsunuz, ama her şey yapıcı değildir."},
+	{24, "24 Herkes kendi yararını değil, başkalarının yararını gözetsin."},
+	{25, "25 Kasaplar çarşısında satılan her eti vicdan sorunu yapmadan, sorgusuz sualsiz yiyin."},
+	{26, "26 Çünkü ‹‹Yeryüzü ve içindeki her şey Rabbindir.››"},
+	{27, "27 İman etmemiş biri sizi yemeğe çağırır, siz de gitmek isterseniz, önünüze konulan her şeyi vicdan sorunu yapmadan, sorgusuz sualsiz yiyin."},
+	{28, "28 Ama biri size, ‹‹Bu kurban etidir›› derse, hem bunu söyleyen için, hem de vicdan huzuru için yemeyin."},
+	{29, "29 Senin değil, öbür adamın vicdan huzuru için demek istiyorum. Benim özgürlüğümü neden başkasının vicdanı yargılasın?"},
+	{30, "30 Şükrederek yemeğe katılırsam, şükrettiğim yiyecekten ötürü neden kınanayım?"},
+	{31, "31 Sonuç olarak, ne yer ne içerseniz, ne yaparsanız, her şeyi Tanrının yüceliği için yapın."},
+	{32, "32 Yahudilerin, Greklerin ya da Tanrı topluluğunun tökezleyip düşmesine neden olmayın."},
+	{33, "33 Ben de kendi yararımı değil, kurtulsunlar diye birçoklarının yararını gözeterek herkesi her yönden hoşnut etmeye çalışıyorum."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view11() {
+struct tr11 poems[] = {
+	{1, "1 Mesihi örnek aldığım gibi, siz de beni örnek alın."},
+	{2, "2 Her durumda beni anımsadığınız ve size ilettiğim öğretileri olduğu gibi koruduğunuz için sizi övüyorum."},
+	{3, "3 Ama şunu da bilmenizi isterim: Her erkeğin başı Mesih, kadının başı erkek, Mesihin başı da Tanrıdır."},
+	{4, "4 Başına bir şey takıp dua ya da peygamberlik eden her erkek, başını küçük düşürür."},
+	{5, "5 Ama başı açık dua ya da peygamberlik eden her kadın, başını küçük düşürür. Böylesinin, başı tıraş edilmiş bir kadından farkı yoktur."},
+	{6, "6 Kadın başını açarsa, saçını kestirsin. Ama kadının saçını kestirmesi ya da tıraş etmesi ayıpsa, başını örtsün."},
+	{7, "7 Erkek başını örtmemeli; o, Tanrının benzeri ve yüceliğidir. Kadın da erkeğin yüceliğidir."},
+	{8, "8 Çünkü erkek kadından değil, kadın erkekten yaratıldı."},
+	{9, "9 Erkek kadın için değil, kadın erkek için yaratıldı."},
+	{10, "10 Bu nedenle ve melekler uğruna kadının başı üzerinde yetkisi olmalıdır."},
+	{11, "11 Ne var ki, Rabde ne kadın erkekten ne de erkek kadından bağımsızdır."},
+	{12, "12 Çünkü kadın erkekten yaratıldığı gibi, erkek de kadından doğar. Ama her şey Tanrıdandır."},
+	{13, "13 Siz kendiniz karar verin: Kadının açık başla Tanrıya dua etmesi uygun mu?"},
+	{14, "14-15 Doğanın kendisi bile size erkeğin uzun saçlı olmasının kendisini küçük düşürdüğünü, kadının uzun saçlı olmasının ise kendisini yücelttiğini öğretmiyor mu? Çünkü saç kadına örtü olarak verilmiştir."},
+	{15, "16 Bu konuda çekişmek isteyen varsa, şunu bilsin ki, bizim ya da Tanrının kiliselerinin böyle bir alışkanlığı yoktur."},
+	{16, "17 Toplantılarınız yarardan çok zarar getirdiği için aşağıdaki uyarıları yaparken sizi övemem."},
+	{17, "18 Birincisi, toplulukça bir araya geldiğinizde aranızda ayrılıklar olduğunu duyuyorum. Buna biraz da inanıyorum."},
+	{18, "19 Çünkü Tanrının beğenisini kazananların belli olması için aranızda bölünmeler olması gerekiyor!"},
+	{19, "20 Toplandığınızda Rabbin Sofrasına katılmak için toplanmıyorsunuz."},
+	{20, "21 Her biriniz ötekini beklemeden kendi yemeğini yiyor. Kimi aç kalıyor, kimi sarhoş oluyor."},
+	{21, "22 Yiyip içmek için evleriniz yok mu? Tanrının topluluğunu hor mu görüyorsunuz, yiyeceği olmayanları utandırmak mı istiyorsunuz? Size ne diyeyim? Sizi öveyim mi? Bu konuda övemem!"},
+	{22, "23-24 Size ilettiğimi ben Rabden öğrendim. Ele verildiği gece Rab İsa eline ekmek aldı, şükredip ekmeği böldü ve şöyle dedi: ‹‹Bu sizin uğrunuza feda edilen bedenimdir. Beni anmak için böyle yapın.››"},
+	{23, "25 Aynı biçimde yemekten sonra kâseyi alıp şöyle dedi: ‹‹Bu kâse kanımla gerçekleşen yeni antlaşmadır. Her içtiğinizde beni anmak için böyle yapın.››"},
+	{24, "26 Bu ekmeği her yediğinizde ve bu kâseden her içtiğinizde, Rabbin gelişine dek Rabbin ölümünü ilan etmiş olursunuz."},
+	{25, "27 Bu nedenle kim uygun olmayan biçimde ekmeği yer ya da Rabbin kâsesinden içerse, Rabbin bedenine ve kanına karşı suç işlemiş olur."},
+	{26, "28 Kişi önce kendini sınasın, sonra ekmekten yiyip kâseden içsin."},
+	{27, "29 Çünkü bedeni farketmeden yiyip içen, böyle yiyip içmekle kendi kendini mahkûm eder."},
+	{28, "30 İşte bu yüzden birçoğunuz zayıf ve hastadır, bazılarınız da ölmüştür."},
+	{29, "31 Kendimizi doğrulukla yargılasaydık, yargılanmazdık."},
+	{30, "32 Dünyayla birlikte mahkûm olmayalım diye Rab bizi yargılayıp terbiye ediyor."},
+	{31, "33 Öyleyse kardeşlerim, yemek için bir araya geldiğinizde birbirinizi bekleyin."},
+	{32, "34 Aç olan karnını evde doyursun. Öyle ki, toplanmanız yargılanmanıza yol açmasın. Öbür sorunları ise geldiğimde çözerim."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view12() {
+struct tr12 poems[] = {
+	{1, "1 Ruhsal armağanlara gelince, kardeşlerim, bu konuda bilgisiz kalmanızı istemem."},
+	{2, "2 Biliyorsunuz, putperestken şöyle ya da böyle saptırılıp dilsiz putlara tapmaya yöneltilmiştiniz."},
+	{3, "3 Bunun için bilmenizi isterim ki: Tanrının Ruhu aracılığıyla konuşan hiç kimse, ‹‹İsaya lanet olsun!›› demez. Kutsal Ruhun aracılığı olmaksızın da kimse, ‹‹İsa Rabdir›› diyemez."},
+	{4, "4 Çeşitli ruhsal armağanlar vardır, ama Ruh birdir."},
+	{5, "5 Çeşitli görevler vardır, ama Rab birdir."},
+	{6, "6 Çeşitli etkinlikler vardır, ama herkeste hepsini etkin kılan aynı Tanrıdır."},
+	{7, "7 Herkesin ortak yararı için herkese Ruhu belli eden bir yetenek veriliyor."},
+	{8, "8-10 Ruh aracılığıyla birine bilgece konuşma yeteneği, ötekine aynı Ruhtan bilgi iletme yeteneği, birine aynı Ruh aracılığıyla iman, ötekine aynı Ruh aracılığıyla hastaları iyileştirme armağanları, birine mucize yapma olanakları, birine peygamberlikte bulunma, birine ruhları ayırt etme, birine çeşitli dillerle konuşma, bir başkasına da bu dilleri çevirme armağanı veriliyor."},
+	{9, "11 Bunların tümünü etkin kılan tek ve aynı Ruhtur. Ruh bunları herkese dilediği gibi, ayrı ayrı dağıtır."},
+	{10, "12 Beden bir olmakla birlikte birçok üyeden oluşur ve çok sayıdaki bu üyelerin hepsi tek bir beden oluşturur. Mesih de böyledir."},
+	{11, "13 İster Yahudi ister Grek, ister köle ister özgür olalım, hepimiz bir beden olmak üzere aynı Ruhta vaftiz edildik ve hepimizin aynı Ruhtan içmesi sağlandı."},
+	{12, "14 İşte beden tek üyeden değil, birçok üyeden oluşur."},
+	{13, "15 Ayak, ‹‹El olmadığım için bedene ait değilim›› derse, bu onu bedenden ayırmaz."},
+	{14, "16 Kulak, ‹‹Göz olmadığım için bedene ait değilim›› derse, bu onu bedenden ayırmaz."},
+	{15, "17 Bütün beden göz olsaydı, nasıl duyardık? Bütün beden kulak olsaydı, nasıl koklardık?"},
+	{16, "18 Gerçek şu ki, Tanrı bedenin her üyesini dilediği biçimde bedene yerleştirmiştir."},
+	{17, "19 Eğer hepsi bir tek üye olsaydı, beden olur muydu?"},
+	{18, "20 Gerçek şu ki, çok sayıda üye, ama tek beden vardır."},
+	{19, "21 Göz ele, ‹‹Sana ihtiyacım yok!›› ya da baş ayaklara, ‹‹Size ihtiyacım yok!›› diyemez."},
+	{20, "22 Tam tersine, bedenin daha zayıf görünen üyeleri vazgeçilmezdir."},
+	{21, "23 Bedenin daha az değerli saydığımız üyelerine daha çok değer veririz. Böylece gösterişsiz üyelerimiz daha gösterişli olur."},
+	{22, "24 Gösterişli üyelerimizin özene ihtiyacı yoktur. Ama Tanrı, değeri az olana daha çok değer vererek bedende birliği sağladı."},
+	{23, "25 Öyle ki, bedende ayrılık olmasın, üyeler birbirini eşit biçimde gözetsin."},
+	{24, "26 Bir üye acı çekerse, bütün üyeler birlikte acı çeker; bir üye yüceltilirse, bütün üyeler birlikte sevinir."},
+	{25, "27 Sizler Mesihin bedenisiniz, bu bedenin ayrı ayrı üyelerisiniz."},
+	{26, "28 Tanrı kilisede ilkin elçileri, ikinci olarak peygamberleri, üçüncü olarak öğretmenleri, sonra mucize yapanları, hastaları iyileştirme armağanlarına sahip olanları, başkalarına yardım edenleri, yönetme yeteneği olanları ve çeşitli dillerle konuşanları atadı."},
+	{27, "29 Hepsi elçi mi? Hepsi peygamber mi? Hepsi öğretmen mi? Hepsi mucize yapar mı?"},
+	{28, "30 Hepsinin hastaları iyileştirme armağanları var mı? Hepsi bilmediği dilleri konuşabilir mi? Hepsi bu dilleri çevirebilir mi?"},
+	{29, "31 Ama siz daha üstün armağanları gayretle isteyin. Şimdi size en iyi yolu göstereyim."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view13() {
+struct tr13 poems[] = {
+	{1, "1 İnsanların ve meleklerin diliyle konuşsam, ama sevgim olmasa, ses çıkaran bakırdan ya da çınlayan zilden farkım kalmaz."},
+	{2, "2 Peygamberlikte bulunabilsem, bütün sırları bilsem, her bilgiye sahip olsam, dağları yerinden oynatacak kadar büyük imanım olsa, ama sevgim olmasa, bir hiçim."},
+	{3, "3 Varımı yoğumu sadaka olarak dağıtsam, bedenimi yakılmak üzere teslim etsem, ama sevgim olmasa, bunun bana hiçbir yararı olmaz."},
+	{4, "4 Sevgi sabırlıdır, sevgi şefkatlidir. Sevgi kıskanmaz, övünmez, böbürlenmez."},
+	{5, "5 Sevgi kaba davranmaz, kendi çıkarını aramaz, kolay kolay öfkelenmez, kötülüğün hesabını tutmaz."},
+	{6, "6 Sevgi haksızlığa sevinmez, gerçek olanla sevinir."},
+	{7, "7 Sevgi her şeye katlanır, her şeye inanır, her şeyi umut eder, her şeye dayanır."},
+	{8, "8 Sevgi asla son bulmaz. Ama peygamberlikler ortadan kalkacak, diller sona erecek, bilgi ortadan kalkacaktır."},
+	{9, "9 Çünkü bilgimiz de peygamberliğimiz de sınırlıdır."},
+	{10, "10 Ne var ki, yetkin olan geldiğinde sınırlı olan ortadan kalkacaktır."},
+	{11, "11 Çocukken çocuk gibi konuşur, çocuk gibi anlar, çocuk gibi düşünürdüm. Yetişkin biri olunca çocukça davranışları bıraktım."},
+	{12, "12 Şimdi her şeyi aynadaki silik görüntü gibi görüyoruz, ama o zaman yüz yüze görüşeceğiz. Şimdi bilgim sınırlıdır, ama o zaman bilindiğim gibi tam bileceğim."},
+	{13, "13 İşte kalıcı olan üç şey vardır: İman, umut, sevgi. Bunların en üstünü de sevgidir."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view14() {
+struct tr14 poems[] = {
+	{1, "1 Sevginin ardınca koşun ve ruhsal armağanları, özellikle peygamberlik yeteneğini gayretle isteyin."},
+	{2, "2 Bilmediği dilde konuşan, insanlarla değil, Tanrıyla konuşur. Kimse onu anlamaz. O, ruhuyla sırlar söyler."},
+	{3, "3 Peygamberlikte bulunansa insanların ruhça gelişmesi, cesaret ve teselli bulması için insanlara seslenir."},
+	{4, "4 Bilmediği dilde konuşan kendi kendini geliştirir; ama peygamberlikte bulunan, inanlılar topluluğunu geliştirir."},
+	{5, "5 Hepinizin dillerle konuşmasını isterim, ama peygamberlikte bulunmanızı yeğlerim. Diller inanlılar topluluğunun gelişmesi için çevrilmedikçe peygamberlikte bulunan, dillerle konuşandan üstündür."},
+	{6, "6 Şimdi kardeşlerim, yanınıza gelip dillerle konuşsam, ama size bir vahiy, bir bilgi, bir peygamberlik sözü ya da bir öğreti getirmesem, size ne yararım olur?"},
+	{7, "7 Kaval ya da lir gibi ses veren cansız nesneler bile değişik sesler çıkarmasa, kaval mı, lir mi çalındığını kim anlar?"},
+	{8, "8 Borazan belirgin bir ses çıkarmasa, kim savaşa hazırlanır?"},
+	{9, "9 Bunun gibi, siz de anlaşılır bir dil konuşmazsanız, söyledikleriniz nasıl anlaşılır? Havaya konuşmuş olursunuz!"},
+	{10, "10 Kuşkusuz dünyada çeşit çeşit diller vardır, hiçbiri de anlamsız değildir."},
+	{11, "11 Ne var ki, konuşulan dili anlamazsam, ben konuşana yabancı olurum, konuşan da bana yabancı olur."},
+	{12, "12 Bu nedenle, siz de ruhsal armağanlara heveslendiğinize göre, inanlılar topluluğunu geliştiren ruhsal armağanlar bakımından zenginleşmeye bakın."},
+	{13, "13 Bunun için, bilmediği dili konuşan, kendi söylediklerini çevirebilmek için dua etsin."},
+	{14, "14 Bilmediğim dille dua edersem ruhum dua eder, ama zihnimin buna katkısı olmaz."},
+	{15, "15 Öyleyse ne yapmalıyım? Ruhumla da zihnimle de dua edeceğim. Ruhumla da zihnimle de ilahi söyleyeceğim."},
+	{16, "16 Tanrıyı yalnız ruhunla översen, yeni katılanlar senin ne söylediğini bilmediğinden, ettiğin şükran duasına nasıl ‹‹Amin!›› desin?"},
+	{17, "17 Uygun biçimde şükrediyor olabilirsin, ama bu başkasını geliştirmez."},
+	{18, "18 Dillerle hepinizden çok konuştuğum için Tanrıya şükrediyorum."},
+	{19, "19 Ama inanlılar topluluğunda dillerle on bin söz söylemektense, başkalarını eğitmek için zihnimden beş söz söylemeyi yeğlerim."},
+	{20, "20 Kardeşler, çocuk gibi düşünmeyin. Kötülük konusunda çocuklar gibi, ama düşünmekte yetişkinler gibi olun."},
+	{21, "21 Kutsal Yasada şöyle yazılmıştır:  ‹‹Rab, ‹Yabancı diller konuşanların aracılığıyla,  Yabancıların dudaklarıyla bu halka sesleneceğim;  Yine de beni dinlemeyecekler!› diyor.››"},
+	{22, "22 Görülüyor ki, bilinmeyen diller imanlılar için değil, imansızlar için bir belirtidir. Peygamberlikse imansızlar için değil, imanlılar için bir belirtidir."},
+	{23, "23 Şimdi bütün inanlılar topluluğu bir araya gelip hep birlikte bilmedikleri dillerle konuşurlarken yeni katılanlar ya da iman etmeyenler içeri girerse, ‹‹Siz çıldırmışsınız!›› demezler mi?"},
+	{24, "24 Ama herkes peygamberlikte bulunurken iman etmeyen ya da yeni katılan biri içeri girerse, söylenen her sözle günahlı olduğuna ikna edilecek, her sözle yargılanacak."},
+	{25, "25 Yüreğindeki gizli düşünceler açığa çıkacak ve, ‹‹Tanrı gerçekten aranızdadır!›› diyerek yüzüstü yere kapanıp Tanrıya tapınacaktır."},
+	{26, "26 Öyleyse ne diyelim, kardeşler? Toplandığınızda her birinizin bir ilahisi, öğretecek bir konusu, bir vahyi, bilmediği dilde söyleyecek bir sözü ya da bir çevirisi vardır. Her şey topluluğun gelişmesi için olsun."},
+	{27, "27 Eğer bilinmeyen dillerle konuşulacaksa, iki ya da en çok üç kişi sırayla konuşsun, biri de söylenenleri çevirsin."},
+	{28, "28 Çeviri yapacak biri yoksa, bilmediği dilde konuşan, toplulukta sessiz kalsın, içinden Tanrıyla konuşsun."},
+	{29, "29 İki ya da üç peygamber konuşsun, öbürleri söylenenleri iyice düşünüp tartsın."},
+	{30, "30 Toplantıda oturanlardan birine vahiy gelirse, konuşmakta olan sussun."},
+	{31, "31 Herkesin öğrenmesi ve cesaret bulması için hepiniz teker teker peygamberlikte bulunabilirsiniz."},
+	{32, "32 Peygamberlerin ruhları peygamberlerin denetimi altındadır."},
+	{33, "33 Çünkü Tanrı karışıklık değil, esenlik Tanrısıdır. Kutsalların bütün topluluklarında böyledir."},
+	{34, "34 Kadınlar toplantılarınızda sessiz kalsın. Konuşmalarına izin yoktur. Kutsal Yasanın da belirttiği gibi, uysal olsunlar."},
+	{35, "35 Öğrenmek istedikleri bir şey varsa, evde kocalarına sorsunlar. Çünkü kadının toplantı sırasında konuşması ayıptır."},
+	{36, "36 Tanrının sözü sizden mi kaynaklandı, ya da yalnız size mi ulaştı?"},
+	{37, "37 Kendini peygamber ya da ruhça olgun sayan varsa, bilsin ki, size yazdıklarım Rabbin buyruğudur."},
+	{38, "38 Bunları önemsemeyenin kendisi de önemsenmesin."},
+	{39, "39 Özet olarak, kardeşlerim, peygamberlikte bulunmayı gayretle isteyin, bilinmeyen dillerle konuşulmasına engel olmayın. Ancak her şey uygun ve düzenli biçimde yapılsın."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view15() {
+struct tr15 poems[] = {
+	{1, "1 Şimdi, kardeşler, size bildirdiğim, sizin de kabul edip bağlı kaldığınız Müjdeyi anımsatmak istiyorum."},
+	{2, "2 Size müjdelediğim söze sımsıkı sarılırsanız, onun aracılığıyla kurtulursunuz. Yoksa boşuna iman etmiş olursunuz."},
+	{3, "3-4 Aldığım bilgiyi size öncelikle ilettim: Kutsal Yazılar uyarınca Mesih günahlarımıza karşılık öldü, gömüldü ve Kutsal Yazılar uyarınca üçüncü gün ölümden dirildi."},
+	{4, "5 Kefasa, sonra Onikilere göründü."},
+	{5, "6 Daha sonra da beş yüzden çok kardeşe aynı anda göründü. Bunların çoğu hâlâ yaşıyor, bazılarıysa öldüler."},
+	{6, "7-8 Bundan sonra Yakupa, sonra bütün elçilere, son olarak zamansız doğmuş bir çocuğa benzeyen bana da göründü."},
+	{7, "9 Ben elçilerin en önemsiziyim. Tanrının kilisesine zulmettiğim için elçi olarak anılmaya bile layık değilim."},
+	{8, "10 Ama şimdi neysem, Tanrının lütfuyla öyleyim. Onun bana olan lütfu boşa gitmedi. Elçilerin hepsinden çok emek verdim. Aslında ben değil, Tanrının bende olan lütfu emek verdi."},
+	{9, "11 İşte, gerek benim yaydığım, gerek öbür elçilerin yaydığı ve sizin de iman ettiğiniz bildiri budur."},
+	{10, "12 Eğer Mesihin ölümden dirildiği duyuruluyorsa, nasıl oluyor da aranızda bazıları ölüler dirilmez diyor?"},
+	{11, "13 Ölüler dirilmezse, Mesih de dirilmemiştir."},
+	{12, "14 Mesih dirilmemişse, bildirimiz de imanınız da boştur."},
+	{13, "15 Bu durumda Tanrıyla ilgili tanıklığımız da yalan demektir. Çünkü Tanrının, Mesihi dirilttiğine tanıklık ettik. Ama ölüler gerçekten dirilmezse, Tanrı Mesihi de diriltmemiştir."},
+	{14, "16 Ölüler dirilmezse, Mesih de dirilmemiştir."},
+	{15, "17 Mesih dirilmemişse imanınız yararsızdır, siz de hâlâ günahlarınızın içindesiniz."},
+	{16, "18 Buna göre Mesihe ait olarak ölmüş olanlar da mahvolmuşlardır."},
+	{17, "19 Eğer yalnız bu yaşam için Mesihe umut bağlamışsak, herkesten çok acınacak durumdayız."},
+	{18, "20 Oysa Mesih, ölmüş olanların ilk örneği olarak ölümden dirilmiştir."},
+	{19, "21 Ölüm bir insan aracılığıyla geldiğine göre, ölümden diriliş de bir insan aracılığıyla gelir."},
+	{20, "22 Herkes nasıl Ademde ölüyorsa, herkes Mesihte yaşama kavuşacak."},
+	{21, "23 Her biri sırası gelince dirilecek: İlk örnek olarak Mesih, sonra Mesihin gelişinde Mesihe ait olanlar."},
+	{22, "24 Bundan sonra Mesih her yönetimi, her hükümranlığı, her gücü ortadan kaldırıp egemenliği Baba Tanrıya teslim ettiği zaman son gelmiş olacak."},
+	{23, "25 Çünkü Tanrı bütün düşmanlarını ayakları altına serinceye dek Onun egemenlik sürmesi gerekir."},
+	{24, "26 Ortadan kaldırılacak son düşman ölümdür."},
+	{25, "27 Çünkü, ‹‹Tanrı her şeyi Mesihin ayakları altına sererek Ona bağımlı kıldı.›› ‹‹Her şey Ona bağımlı kılındı›› sözünün, her şeyi Mesihe bağımlı kılan Tanrıyı içermediği açıktır."},
+	{26, "28 Her şey Oğula bağımlı kılınınca, Oğul da her şeyi kendisine bağımlı kılan Tanrıya bağımlı olacaktır. Öyle ki, Tanrı her şeyde her şey olsun."},
+	{27, "29 Diriliş yoksa, ölüler için vaftiz edilenler ne olacak? Ölüler gerçekten dirilmeyecekse, insanlar neden ölüler için vaftiz ediliyorlar?"},
+	{28, "30 Biz de neden her saat kendimizi tehlikeye atıyoruz?"},
+	{29, "31 Kardeşler, sizinle ilgili olarak Rabbimiz Mesih İsada sahip olduğum övüncün hakkı için her gün ölüyorum."},
+	{30, "32 Eğer insansal nedenlerle Efeste canavarlarla dövüştümse, bunun bana yararı ne? Eğer ölüler dirilmeyecekse, ‹‹Yiyelim içelim, nasıl olsa yarın öleceğiz.››"},
+	{31, "33 Aldanmayın, ‹‹Kötü arkadaşlıklar iyi huyu bozar.››"},
+	{32, "34 Uslanıp kendinize gelin, artık günah işlemeyin. Bazılarınız Tanrıyı hiç tanımıyor. Utanasınız diye söylüyorum bunları."},
+	{33, "35 Ama biri çıkıp, ‹‹Ölüler nasıl dirilecek? Nasıl bir bedenle gelecekler?›› diye sorabilir."},
+	{34, "36 Ne akılsızca bir soru! Ektiğin tohum ölmedikçe yaşama kavuşmaz ki!"},
+	{35, "37 Ekerken, oluşacak bitkinin kendisini değil, yalnızca tohumunu -buğday ya da başka bir bitkinin tohumunu- ekersin."},
+	{36, "38 Tanrı tohuma dilediği bedeni -her birine kendine özgü bedeni- verir."},
+	{37, "39 Her canlının eti aynı değildir. İnsan eti başka, hayvan eti başka, kuş eti, balık eti başka başkadır."},
+	{38, "40 Göksel bedenler vardır, dünyasal bedenler vardır. Göksel olanların görkemi başka, dünyasal olanlarınki başkadır."},
+	{39, "41 Güneşin görkemi başka, ayın görkemi başka, yıldızların görkemi başkadır. Görkem bakımından yıldız yıldızdan farklıdır."},
+	{40, "42 Ölülerin dirilişi de böyledir. Beden çürümeye mahkûm olarak gömülür, çürümez olarak diriltilir."},
+	{41, "43 Düşkün olarak gömülür, görkemli olarak diriltilir. Zayıf olarak gömülür, güçlü olarak diriltilir."},
+	{42, "44 Doğal beden olarak gömülür, ruhsal beden olarak diriltilir. Doğal beden olduğu gibi, ruhsal beden de vardır."},
+	{43, "45 Nitekim şöyle yazılmıştır: ‹‹İlk insan Adem yaşayan can oldu.›› Son Ademse yaşam veren ruh oldu."},
+	{44, "46 Önce ruhsal olan değil, doğal olan geldi. Ruhsal olan sonra geldi."},
+	{45, "47 İlk insan yerden, yani topraktandır. İkinci insan göktendir."},
+	{46, "48 Topraktan olan insan nasılsa, topraktan olanlar da öyledir. Göksel insan nasılsa, göksel olanlar da öyledir."},
+	{47, "49 Bizler topraktan olana nasıl benzediysek, göksel olana da benzeyeceğiz."},
+	{48, "50 Kardeşler, şunu demek istiyorum, et ve kan Tanrının Egemenliğini miras alamaz. Çürüyen de çürümezliği miras alamaz."},
+	{49, "51-52 İşte size bir sır açıklıyorum. Hepimiz ölmeyeceğiz; son borazan çalınınca hepimiz bir anda, göz açıp kapayana dek değiştirileceğiz. Evet, borazan çalınacak, ölüler çürümez olarak dirilecek, ve biz de değiştirileceğiz."},
+	{50, "53 Çünkü bu çürüyen beden çürümezliği, bu ölümlü beden ölümsüzlüğü giyinmelidir."},
+	{51, "54 Çürüyen ve ölümlü beden çürümezliği ve ölümsüzlüğü giyinince, ‹‹Ölüm yok edildi, zafer kazanıldı!›› diye yazılmış olan söz yerine gelecektir."},
+	{52, "55 ‹‹Ey ölüm, zaferin nerede?  Ey ölüm, dikenin nerede?››"},
+	{53, "56 Ölümün dikeni günahtır. Günah ise gücünü Kutsal Yasadan alır."},
+	{54, "57 Rabbimiz İsa Mesih aracılığıyla bizi zafere ulaştıran Tanrıya şükürler olsun!"},
+	{55, "58 Bu nedenle, sevgili kardeşlerim, Rab yolunda verdiğiniz emeğin boşa gitmeyeceğini bilerek dayanın, sarsılmayın, Rab'bin işinde her zaman gayretli olun."},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+static void view16() {
+struct tr16 poems[] = {
+	{1, "1 Kutsallara yapılacak para yardımına gelince: Galatya kiliselerine ne buyurduysam, siz de öyle yapın."},
+	{2, "2 Haftanın ilk günü herkes kazancına göre bir miktar para ayırıp biriktirsin. Öyle ki, yanınıza geldiğimde para toplamaya gerek kalmasın."},
+	{3, "3 Oraya vardığımda, bağışlarınızı götürmek üzere uygun gördüğünüz kişileri tanıtıcı mektuplarla Yeruşalime göndereceğim."},
+	{4, "4 Benim de gitmeme değerse, onları yanıma alıp gideceğim."},
+	{5, "5 Makedonyadan geçtikten sonra yanınıza geleceğim. Çünkü Makedonyadan geçmek niyetindeyim."},
+	{6, "6 Belki bir süre yanınızda kalırım, hatta kışı da sizinle geçirebilirim. Öyle ki, sonra nereye gidecek olsam, bana yardım edebilesiniz."},
+	{7, "7 Sizi öyle kısaca görüp geçmek istemiyorum. Rabbin izniyle uzunca bir süre yanınızda kalmayı umut ediyorum."},
+	{8, "8 Ama Pentikost Gününe dek Efeste kalacağım."},
+	{9, "9 Çünkü büyük ve etkili işler yapmam için burada bana bir kapı açıldı. Ne var ki, bana karşı çıkanlar çoktur."},
+	{10, "10 Timoteos yanınıza gelirse, bir şeyden korkmamasına dikkat edin. Çünkü o da benim gibi Rabbin işini yapıyor."},
+	{11, "11 Kimse onu hor görmesin. Yanıma gelmesi için onu esenlikle uğurlayın. Kardeşlerle birlikte onun da gelmesini bekliyorum."},
+	{12, "12 Kardeşimiz Apollosa gelince, kardeşlerle birlikte size gelmesi için ona çok ricada bulundum, ama şimdilik gelmeye hiç de istekli değil. Fırsat bulunca gelecek."},
+	{13, "13 Uyanık kalın, imanda dimdik durun, mert ve güçlü olun."},
+	{14, "14 Her şeyi sevgiyle yapın."},
+	{15, "15-16 Ahayada ilk iman eden ve kendilerini kutsalların hizmetine adayan İstefanasın ev halkını bilirsiniz. Kardeşler, size yalvarırım, bu gibilere ve onlarla birlikte çalışıp emek verenlerin hepsine bağımlı olun."},
+	{16, "17 İstefanas, Fortunatus ve Ahaykosun gelişine sevindim. Yokluğunuzu bana unutturdular."},
+	{17, "18 Sizin ruhunuzu da benim ruhumu da ferahlattılar. Böylelerinin değerini bilin."},
+	{18, "19 Asya İlindeki kiliseler size selam eder. Akvila ve Priska, evlerinde buluşan toplulukla birlikte Rabde size çok selam ederler."},
+	{19, "20 Buradaki bütün kardeşlerin size selamı var. Birbirinizi kutsal öpüşle selamlayın."},
+	{20, "21 Ben Pavlus, bu selamı kendi elimle yazıyorum."},
+	{21, "22 Rabbi sevmeyene lanet olsun. Maranata!"},
+	{22, "23 Rab İsanın lütfu sizinle birlikte olsun."},
+	{23, "24 Hepinize Mesih İsa'da sevgiler! Amin. Revision"},
+};
+size_t npoems = sizeof poems / sizeof poems[0];size_t i;for (i=0; i < npoems; ++i) {printf("%s\n", poems[i].msg);}
+}
+};
