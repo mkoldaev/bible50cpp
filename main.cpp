@@ -1,12 +1,9 @@
-#include "books.h"
-#include "chapters.h"
 //#include "generator.h" //перед масштабированием на linux, нужно закоммитить
-#include "args.h"
+#include "./lang/ru/gen/books.h" //перед генереацией комментировать
+#include "./lang/ru/gen/chapters.h" //перед генереацией комментировать
+#include "./lang/ru/gen/args.h" //перед генереацией комментировать
 int main(int argc, char** argv) {
-    //genargs(); exit(0);
-    //genchapters(); exit(0);
-    //genallbooks(); exit(0);
-    //cout << argc; exit(0);
+    //genalllang(); exit(0);
     if (argc > 1) {
         if(argc == 2) {
             book = atoi(argv[1]);
